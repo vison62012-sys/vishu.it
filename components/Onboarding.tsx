@@ -204,7 +204,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     };
 
     return (
-        <div className="min-h-screen bg-[#0F0F0F] text-white flex flex-col overflow-hidden relative font-sans">
+        <div className="h-full bg-[#0F0F0F] text-white flex flex-col overflow-hidden relative font-sans">
             {/* Transition overlay for depth (dim + blur) */}
             {transitioning && (
                 <div
@@ -222,9 +222,9 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 >
                     <div className="flex-1 flex flex-col animate-in fade-in duration-700">
                         {/* Orange Header Section */}
-                        <div className="relative h-[50vh] w-full bg-[#FF9F29] rounded-b-[48px] overflow-hidden flex items-end justify-center">
+                        <div className="relative h-[30vh] w-full bg-[#FF9F29] rounded-b-[32px] overflow-hidden flex items-end justify-center">
                             {/* Background Decor */}
-                            <div className="absolute top-10 left-10 w-32 h-32 bg-white/20 rounded-full blur-2xl" />
+                            <div className="absolute top-6 left-10 w-24 h-24 bg-white/20 rounded-full blur-2xl" />
 
                             {/* Cutout Profile Image - Scrolling */}
                             <div className="h-[100%] absolute bottom-0 left-0 right-0 flex items-end justify-center">
@@ -249,37 +249,37 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                             </div>
 
                             {/* Back Arrow Placeholder */}
-                            <div className="absolute top-12 left-6 w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center">
-                                <ArrowRight className="w-5 h-5 text-white rotate-180" />
+                            <div className="absolute top-6 left-6 w-8 h-8 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center">
+                                <ArrowRight className="w-3.5 h-3.5 text-white rotate-180" />
                             </div>
 
                             {/* Profile Info Overlay */}
-                            <div className="absolute top-24 left-8 space-y-2">
+                            <div className="absolute top-14 left-8 space-y-1">
                                 <div className="flex items-center space-x-1 text-[#0F0F0F]/80">
-                                    <Star className="w-4 h-4 fill-current" />
-                                    <span className="font-bold text-sm">5.0</span>
+                                    <Star className="w-3 h-3 fill-current" />
+                                    <span className="font-bold text-[10px]">5.0</span>
                                 </div>
-                                <h1 className="text-4xl font-black text-[#0F0F0F] tracking-tight leading-none uppercase">
+                                <h1 className="text-2xl font-black text-[#0F0F0F] tracking-tight leading-none uppercase">
                                     Vishu<br />Consulting
                                 </h1>
-                                <div className="flex flex-col space-y-2 mt-4">
-                                    <div className="flex items-center space-x-1 text-[#0F0F0F]/60 text-[10px] font-bold uppercase tracking-wider pl-1">
-                                        <MapPin className="w-3 h-3" />
+                                <div className="flex flex-col space-y-1 mt-2">
+                                    <div className="flex items-center space-x-1 text-[#0F0F0F]/60 text-[8px] font-bold uppercase tracking-wider pl-1">
+                                        <MapPin className="w-2 h-2" />
                                         <span>Basato in Italia</span>
                                     </div>
                                     <div className="relative group animate-in slide-in-from-bottom-8 delay-300 duration-1000">
                                         {/* Liquid Glass Container */}
-                                        <div className="absolute -inset-0.5 bg-white/20 blur-[2px] rounded-3xl group-hover:blur-[4px] transition-all opacity-0 animate-in fade-in fill-mode-forwards" style={{ animationDelay: '500ms' }} />
-                                        <div className="relative bg-white/10 backdrop-blur-xl border border-white/30 rounded-2xl p-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] overflow-hidden animate-float">
+                                        <div className="absolute -inset-0.5 bg-white/20 blur-[2px] rounded-xl group-hover:blur-[4px] transition-all opacity-0 animate-in fade-in fill-mode-forwards" style={{ animationDelay: '500ms' }} />
+                                        <div className="relative bg-white/10 backdrop-blur-xl border border-white/30 rounded-lg p-2.5 shadow-[0_8px_32px_rgba(0,0,0,0.1)] overflow-hidden animate-float">
                                             {/* Shimmer Effect */}
                                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full animate-shimmer pointer-events-none" />
 
                                             {/* Subtle Shine Gradient */}
                                             <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 
-                                            <div className="text-[14px] font-black text-[#0F0F0F] leading-tight max-w-[200px] uppercase">
+                                            <div className="text-[11px] font-black text-[#0F0F0F] leading-tight max-w-[150px] uppercase">
                                                 Consulente Informatico <br />
-                                                <span className="opacity-60 font-bold block mt-1 text-[11px] tracking-tight">
+                                                <span className="opacity-60 font-bold block mt-0.5 text-[9px] tracking-tight">
                                                     per la transizione digitale delle attività locali
                                                 </span>
                                             </div>
@@ -290,54 +290,54 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                         </div>
 
                         {/* Content Section */}
-                        <div className="flex-1 px-6 md:px-8 pt-4 md:pt-6 flex flex-col justify-between pb-6 md:pb-10 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y">
-                            <div className="space-y-5">
+                        <div className="flex-1 px-6 md:px-8 pt-3 md:pt-4 flex flex-col justify-between pb-4 md:pb-6 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y">
+                            <div className="space-y-4">
                                 {/* Quick Action Button - As per requested image */}
                                 <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
                                     <button
                                         onClick={handleNext}
-                                        className="w-full h-12 bg-[#FF9F29] rounded-full flex items-center justify-center space-x-3 shadow-lg shadow-[#FF9F29]/20 hover:scale-[1.02] active:scale-[0.98] transition-all group"
+                                        className="w-full h-11 bg-[#FF9F29] rounded-full flex items-center justify-center space-x-3 shadow-lg shadow-[#FF9F29]/20 hover:scale-[1.02] active:scale-[0.98] transition-all group"
                                     >
-                                        <span className="text-[#0F0F0F] font-black uppercase tracking-[0.15em] text-sm">Configura ora</span>
-                                        <ArrowRight className="w-5 h-5 text-[#0F0F0F] group-hover:translate-x-1 transition-transform" />
+                                        <span className="text-[#0F0F0F] font-black uppercase tracking-[0.15em] text-xs">Configura ora</span>
+                                        <ArrowRight className="w-4 h-4 text-[#0F0F0F] group-hover:translate-x-1 transition-transform" />
                                     </button>
                                 </div>
 
-                                <div className="flex justify-between items-center text-[#FF9F29] pt-4">
-                                    <h3 className="text-xl font-bold">I Nostri Servizi</h3>
-                                    <div className="flex items-center space-x-1 text-xs font-bold uppercase tracking-widest cursor-pointer hover:opacity-80 transition-opacity">
+                                <div className="flex justify-between items-center text-[#FF9F29] pt-2">
+                                    <h3 className="text-lg font-bold">I Nostri Servizi</h3>
+                                    <div className="flex items-center space-x-1 text-[10px] font-bold uppercase tracking-widest cursor-pointer hover:opacity-80 transition-opacity">
                                         <span>Vedi Tutto</span>
-                                        <ChevronRight className="w-4 h-4" />
+                                        <ChevronRight className="w-3.5 h-3.5" />
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-3">
-                                    <div className="bg-[#1C1C1E] p-4 rounded-3xl border border-white/5 space-y-4 hover:border-[#FF9F29]/30 transition-colors cursor-pointer group">
-                                        <div className="w-12 h-12 bg-[#2C2C2E] rounded-2xl flex items-center justify-center group-hover:bg-[#FF9F29]/10 transition-colors">
-                                            <Sparkles className="w-6 h-6 text-[#FF9F29]" />
+                                <div className="grid grid-cols-2 gap-2.5">
+                                    <div className="bg-[#1C1C1E] p-3.5 rounded-2xl border border-white/5 space-y-3 hover:border-[#FF9F29]/30 transition-colors cursor-pointer group">
+                                        <div className="w-10 h-10 bg-[#2C2C2E] rounded-xl flex items-center justify-center group-hover:bg-[#FF9F29]/10 transition-colors">
+                                            <Sparkles className="w-5 h-5 text-[#FF9F29]" />
                                         </div>
-                                        <div className="space-y-1">
-                                            <h4 className="font-bold text-sm">Digitalizzazione</h4>
-                                            <p className="text-[10px] text-gray-500 font-medium uppercase tracking-tighter">Processi Automati</p>
+                                        <div className="space-y-0.5">
+                                            <h4 className="font-bold text-xs">Digitalizzazione</h4>
+                                            <p className="text-[9px] text-gray-500 font-medium uppercase tracking-tighter">Processi Automati</p>
                                         </div>
                                     </div>
-                                    <div className="bg-[#FF9F29] p-4 rounded-3xl space-y-4 cursor-pointer shadow-lg shadow-[#FF9F29]/20 transform hover:scale-[1.02] transition-transform">
-                                        <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center">
-                                            <ArrowRight className="w-6 h-6 text-[#0F0F0F]" />
+                                    <div className="bg-[#FF9F29] p-3.5 rounded-2xl space-y-3 cursor-pointer shadow-lg shadow-[#FF9F29]/20 transform hover:scale-[1.02] transition-transform">
+                                        <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
+                                            <ArrowRight className="w-5 h-5 text-[#0F0F0F]" />
                                         </div>
-                                        <div className="space-y-1">
-                                            <h4 className="font-bold text-sm text-[#0F0F0F]">Marketing</h4>
-                                            <p className="text-[10px] text-[#0F0F0F]/60 font-medium uppercase tracking-tighter">Strategia Growth</p>
+                                        <div className="space-y-0.5">
+                                            <h4 className="font-bold text-xs text-[#0F0F0F]">Marketing</h4>
+                                            <p className="text-[9px] text-[#0F0F0F]/60 font-medium uppercase tracking-tighter">Strategia Growth</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             {/* Improved Swipe to Start Button */}
-                            <div className="mt-6">
+                            <div className="mt-4">
                                 <div
                                     ref={sliderRef}
-                                    className="relative h-16 bg-[#1C1C1E] rounded-full p-1 overflow-hidden flex items-center select-none shadow-2xl border border-white/5 touch-action-pan-x"
+                                    className="relative h-14 bg-[#1C1C1E] rounded-full p-1 overflow-hidden flex items-center select-none shadow-2xl border border-white/5 touch-action-pan-x"
                                     onMouseMove={onTouchMove}
                                     onTouchMove={onTouchMove}
                                     onMouseDown={onTouchStart}
