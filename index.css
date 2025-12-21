@@ -1,0 +1,144 @@
+/* Global Mobile/Touch Enhancements */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/***** Reduced Motion *****/
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/***** Typography *****/
+.h1-clamp { font-weight: 800; font-size: clamp(1.25rem, 2.2vw + 1rem, 2rem); line-height: 1.2; }
+.p-clamp { font-size: clamp(0.9rem, 0.6vw + 0.8rem, 1rem); line-height: 1.55; }
+
+/* Activity Filters - Custom Styles */
+
+/* Progress bar dinamica per le categorie */
+.category-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.category-progress-fill {
+  height: 100%;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.category-progress-fill.active {
+  background-color: #FF9F29;
+}
+
+.category-progress-fill.inactive {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Glow effects per hover states */
+.filter-glow-gradient {
+  background: radial-gradient(circle at 0% 0%, rgba(255,159,41,0.3) 0, transparent 55%), 
+              radial-gradient(circle at 100% 0%, rgba(255,255,255,0.12) 0, transparent 50%);
+}
+
+/* Smooth scrolling on iOS */
+.touch-scroller { -webkit-overflow-scrolling: touch; }
+.overscroll-contain { overscroll-behavior: contain; overscroll-behavior-y: contain; }
+.overscroll-none { overscroll-behavior: none; overscroll-behavior-y: none; }
+.touch-action-pan-y { touch-action: pan-y; }
+.touch-action-pan-x { touch-action: pan-x; }
+
+/***** Onboarding WOW utilities *****/
+/* Shimmer sweep for CTA and cards */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); opacity: 0; }
+  10% { opacity: .35; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+.animate-shimmer { animation: shimmer 1.8s linear infinite; }
+
+/* Gentle float for glass cards */
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+.animate-float { animation: floaty 3.6s ease-in-out infinite; }
+
+/* Soft glow/pulse for selected states */
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,159,41,0.35); }
+  50% { box-shadow: 0 0 0 12px rgba(255,159,41,0); }
+}
+.glow-pulse { animation: glowPulse 2.4s ease-in-out infinite; }
+
+/* 3D tilt hover (fallback hover elevate) */
+.card-tilt { transform: perspective(800px) translateZ(0); transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; will-change: transform; }
+.card-tilt:hover { transform: perspective(800px) translateY(-2px) scale(1.01); }
+
+/* Selection burst effect overlay */
+@keyframes burst {
+  0% { opacity: .35; transform: scale(.9); }
+  100% { opacity: 0; transform: scale(1.2); }
+}
+.select-burst { position: absolute; inset: -15%; border-radius: 32px; pointer-events: none;
+  background:
+    radial-gradient(120px 120px at 30% 20%, rgba(255,159,41,.35), transparent 60%),
+    radial-gradient(140px 140px at 70% 80%, rgba(255,191,113,.25), transparent 60%);
+  animation: burst 600ms ease-out forwards;
+}
+
+/* Orb glows for abstract backgrounds */
+.wow-orb { filter: blur(80px); opacity: .22; pointer-events: none; }
+
+/* Subtle gradient border helper (uses background-clip) */
+.gradient-border { position: relative; border: 2px solid transparent;
+  background: linear-gradient(#1C1C1E, #1C1C1E) padding-box,
+              linear-gradient(135deg, rgba(255,159,41,.6), rgba(255,255,255,.12)) border-box;
+}
+
+/* Fancy scrollbar for category list */
+.custom-scrollbar::-webkit-scrollbar { width: 8px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background-color: rgba(255,255,255,.08); border-radius: 999px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: rgba(255,255,255,.14); }
+
+/***** End Onboarding WOW utilities *****/
+
+/* Toggle switch styles (Uiverse.io by kandalgaonkarshubham) */
+.label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #394a56;
+}
+.label-text {
+  margin-left: 16px;
+}
+.toggle {
+  isolation: isolate;
+  position: relative;
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: -8px -4px 8px 0px rgb(50, 50, 50),
+    8px 4px 12px 0px rgb(25, 25, 25), 4px 4px 4px 0px rgb(25, 25, 25) inset,
+    -4px -4px 4px 0px rgb(50, 50, 50) inset;
+}
+.toggle-state {
+  display: none;
+}
+.indicator {
+  height: 100%;
+  width: 200%;
+  background: #262626;
+  border-radius: 15px;
+  transform: translate3d(-75%, 0, 0);
+  transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+  box-shadow: -8px -4px 8px 0px rgb(25, 25, 25),
+    8px 4px 12px 0px rgb(25, 25, 25);
+}
+.toggle-state:checked ~ .indicator {
+  transform: translate3d(25%, 0, 0);
+}
