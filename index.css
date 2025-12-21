@@ -44,6 +44,10 @@
 
 /* Smooth scrolling on iOS */
 .touch-scroller { -webkit-overflow-scrolling: touch; }
+.overscroll-contain { overscroll-behavior: contain; overscroll-behavior-y: contain; }
+.overscroll-none { overscroll-behavior: none; overscroll-behavior-y: none; }
+.touch-action-pan-y { touch-action: pan-y; }
+.touch-action-pan-x { touch-action: pan-x; }
 
 /***** Onboarding WOW utilities *****/
 /* Shimmer sweep for CTA and cards */

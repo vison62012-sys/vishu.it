@@ -7,6 +7,7 @@ export interface ConsultingService {
   category: string; // Categoria tecnica (Digitalizzazione, E-commerce, etc.)
   activityType: string; // Tipo di attività (Beach/Chalet, Ristoranti, Hotel, etc.)
   image: string;
+  alt?: string; // Descrizione accessibile dell'immagine
   problem: string; // Problema che risolve
   tagline?: string; // Tagline d'impatto (es. "Digitale. Igienico. Redditizio.")
   stats?: {

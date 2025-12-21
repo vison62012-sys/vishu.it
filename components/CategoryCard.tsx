@@ -29,9 +29,19 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category, services, onServi
     setIsExpanded(!isExpanded);
   };
 
-  const defaultImage = category.id === 'restaurant'
-    ? 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80'
-    : 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80';
+  const getDefaultImage = (id: string) => {
+    switch (id) {
+      case 'restaurant': return '/images/services/7-desktop.webp';
+      case 'beach': return '/images/services/5-desktop.webp';
+      case 'wellness': return '/images/services/W1-desktop.webp';
+      case 'autocare': return '/images/services/A4-desktop.webp';
+      case 'retail': return '/images/services/3-desktop.webp';
+      case 'events': return '/images/services/8-desktop.webp';
+      default: return '/images/services/1-desktop.webp';
+    }
+  };
+
+  const imageSrc = category.image || getDefaultImage(category.id);
 
   return (
     <div className="mb-5 overflow-visible">
@@ -76,7 +86,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ category, services, onServi
               ${isExpanded ? 'opacity-15 scale-105' : 'opacity-25 scale-100'}
             `}
             style={{
-              backgroundImage: `url(${category.image || defaultImage})`,
+              backgroundImage: `url(${imageSrc})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               filter: 'blur(2px) brightness(0.7)',

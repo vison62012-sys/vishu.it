@@ -42,11 +42,37 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onBack, onConsul
         <div className="relative w-full rounded-b-[50px] pt-10 sm:pt-12 md:pt-16 pb-12 sm:pb-16 px-4 sm:px-8 overflow-hidden">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0">
-            <img
-              src={service.image}
-              alt={service.name}
-              className="w-full h-full object-cover"
-            />
+            {service.image.includes('-desktop.webp') ? (
+              <picture>
+                <source
+                  media="(max-width: 640px)"
+                  srcSet={service.image.replace('-desktop.webp', '-mobile.webp')}
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcSet={service.image.replace('-desktop.webp', '-tablet.webp')}
+                  type="image/webp"
+                />
+                <img
+                  src={service.image}
+                  alt={service.alt || service.name}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80';
+                  }}
+                />
+              </picture>
+            ) : (
+              <img
+                src={service.image}
+                alt={service.alt || service.name}
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.currentTarget.src = 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80';
+                }}
+              />
+            )}
             <div className="absolute inset-0 bg-gradient-to-b from-brand-orange via-brand-orange/95 to-brand-orange"></div>
             <div
               className="absolute inset-0 opacity-20"

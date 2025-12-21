@@ -61,11 +61,23 @@ const HeroProfile: React.FC<HeroProfileProps> = ({ stylist, onBack }) => {
         {/* Hero Image - Simulating the cutout look */}
         <div className="absolute right-[-20px] bottom-[-40px] w-[180px] h-[260px] pointer-events-none">
             <div className="w-full h-full relative">
-                <img 
-                    src={stylist.image} 
-                    alt={stylist.name} 
-                    className="w-full h-full object-cover object-center rounded-t-[100px] rounded-b-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.15)] border-[3px] border-white/20"
-                />
+                {stylist.image.includes('-desktop.webp') ? (
+                  <picture>
+                    <source media="(max-width: 640px)" srcSet={stylist.image.replace('-desktop.webp', '-mobile.webp')} type="image/webp" />
+                    <source media="(max-width: 1024px)" srcSet={stylist.image.replace('-desktop.webp', '-tablet.webp')} type="image/webp" />
+                    <img 
+                        src={stylist.image} 
+                        alt={stylist.name} 
+                        className="w-full h-full object-cover object-center rounded-t-[100px] rounded-b-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.15)] border-[3px] border-white/20"
+                    />
+                  </picture>
+                ) : (
+                  <img 
+                      src={stylist.image} 
+                      alt={stylist.name} 
+                      className="w-full h-full object-cover object-center rounded-t-[100px] rounded-b-[40px] shadow-[0_20px_40px_rgba(0,0,0,0.15)] border-[3px] border-white/20"
+                  />
+                )}
             </div>
         </div>
       </div>

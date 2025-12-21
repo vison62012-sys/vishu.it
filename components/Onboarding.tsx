@@ -26,7 +26,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
     const onboardingImages = ['/images/profile1.png', '/images/profile2.png'];
 
     useEffect(() => {
-        window.scrollTo({ top: 0, behavior: 'instant' });
+        window.scrollTo({ top: 0, behavior: 'auto' });
         if (scrollContainerRef.current) {
             scrollContainerRef.current.scrollTo({ top: 0 });
         }
@@ -222,7 +222,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 >
                     <div className="flex-1 flex flex-col animate-in fade-in duration-700">
                         {/* Orange Header Section */}
-                        <div className="relative h-[55vh] w-full bg-[#FF9F29] rounded-b-[48px] overflow-hidden flex items-end justify-center">
+                        <div className="relative h-[50vh] w-full bg-[#FF9F29] rounded-b-[48px] overflow-hidden flex items-end justify-center">
                             {/* Background Decor */}
                             <div className="absolute top-10 left-10 w-32 h-32 bg-white/20 rounded-full blur-2xl" />
 
@@ -290,13 +290,13 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                         </div>
 
                         {/* Content Section */}
-                        <div className="flex-1 px-8 pt-6 flex flex-col justify-between pb-10">
-                            <div className="space-y-6">
+                        <div className="flex-1 px-6 md:px-8 pt-4 md:pt-6 flex flex-col justify-between pb-6 md:pb-10 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y">
+                            <div className="space-y-5">
                                 {/* Quick Action Button - As per requested image */}
                                 <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
                                     <button
                                         onClick={handleNext}
-                                        className="w-full h-14 bg-[#FF9F29] rounded-full flex items-center justify-center space-x-3 shadow-lg shadow-[#FF9F29]/20 hover:scale-[1.02] active:scale-[0.98] transition-all group"
+                                        className="w-full h-12 bg-[#FF9F29] rounded-full flex items-center justify-center space-x-3 shadow-lg shadow-[#FF9F29]/20 hover:scale-[1.02] active:scale-[0.98] transition-all group"
                                     >
                                         <span className="text-[#0F0F0F] font-black uppercase tracking-[0.15em] text-sm">Configura ora</span>
                                         <ArrowRight className="w-5 h-5 text-[#0F0F0F] group-hover:translate-x-1 transition-transform" />
@@ -311,7 +311,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-4">
+                                <div className="grid grid-cols-2 gap-3">
                                     <div className="bg-[#1C1C1E] p-4 rounded-3xl border border-white/5 space-y-4 hover:border-[#FF9F29]/30 transition-colors cursor-pointer group">
                                         <div className="w-12 h-12 bg-[#2C2C2E] rounded-2xl flex items-center justify-center group-hover:bg-[#FF9F29]/10 transition-colors">
                                             <Sparkles className="w-6 h-6 text-[#FF9F29]" />
@@ -334,10 +334,10 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                             </div>
 
                             {/* Improved Swipe to Start Button */}
-                            <div className="mt-8">
+                            <div className="mt-6">
                                 <div
                                     ref={sliderRef}
-                                    className="relative h-20 bg-[#1C1C1E] rounded-full p-2 overflow-hidden flex items-center select-none shadow-2xl border border-white/5"
+                                    className="relative h-16 bg-[#1C1C1E] rounded-full p-1 overflow-hidden flex items-center select-none shadow-2xl border border-white/5 touch-action-pan-x"
                                     onMouseMove={onTouchMove}
                                     onTouchMove={onTouchMove}
                                     onMouseDown={onTouchStart}
@@ -349,13 +349,13 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                                     {/* Animated background trace */}
                                     <div
                                         className="absolute left-0 top-0 bottom-0 bg-[#FF9F29]/10 transition-all duration-75"
-                                        style={{ width: `${Math.max(64, (swipeProgress / 100) * (sliderRef.current?.offsetWidth || 0))}px` }}
+                                        style={{ width: `${Math.max(48, (swipeProgress / 100) * (sliderRef.current?.offsetWidth || 0))}px` }}
                                     />
                                     {/* Hint trace overlay */}
                                     {showSwipeHint && (
                                         <div
                                             className="absolute left-0 top-0 bottom-0 bg-[#FF9F29]/15 pointer-events-none"
-                                            style={{ width: `${Math.max(64, (hintProgress / 100) * (sliderRef.current?.offsetWidth || 0))}px` }}
+                                            style={{ width: `${Math.max(48, (hintProgress / 100) * (sliderRef.current?.offsetWidth || 0))}px` }}
                                         />
                                     )}
 
@@ -367,29 +367,29 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                                     {/* Floating ghost handle hint */}
                                     {showSwipeHint && (
                                         <div
-                                            className="absolute top-1/2 -translate-y-1/2 h-[64px] w-[64px] rounded-full border-2 border-[#FF9F29]/50 bg-[#FF9F29]/10 flex items-center justify-center pointer-events-none shadow-[0_0_18px_rgba(255,159,41,0.25)]"
+                                            className="absolute top-1/2 -translate-y-1/2 h-[48px] w-[48px] rounded-full border-2 border-[#FF9F29]/50 bg-[#FF9F29]/10 flex items-center justify-center pointer-events-none shadow-[0_0_18px_rgba(255,159,41,0.25)]"
                                             style={{
-                                                transform: `translateY(-50%) translateX(${hintProgress * ((sliderRef.current?.offsetWidth || 300) - 80) / 100}px)`,
+                                                transform: `translateY(-50%) translateX(${hintProgress * ((sliderRef.current?.offsetWidth || 300) - 64) / 100}px)`,
                                             }}
                                         >
-                                            <ChevronRight className="w-8 h-8 text-[#FF9F29]" strokeWidth={3} />
+                                            <ChevronRight className="w-7 h-7 text-[#FF9F29]" strokeWidth={3} />
                                             <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-[#FF9F29] animate-ping" />
                                         </div>
                                     )}
 
                                     {/* The Slider Handle */}
                                     <div
-                                        className={`h-[64px] w-[64px] bg-[#FF9F29] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(255,159,41,0.4)] transition-transform ${isDragging ? 'duration-0' : 'duration-500 ease-out'} relative z-10`}
+                                        className={`h-[48px] w-[48px] bg-[#FF9F29] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(255,159,41,0.4)] transition-transform ${isDragging ? 'duration-0' : 'duration-500 ease-out'} relative z-10`}
                                         style={{
-                                            transform: `translateX(${swipeProgress * ((sliderRef.current?.offsetWidth || 300) - 80) / 100}px)`,
+                                            transform: `translateX(${swipeProgress * ((sliderRef.current?.offsetWidth || 300) - 64) / 100}px)`,
                                         }}
                                     >
-                                        <ChevronRight className={`w-8 h-8 text-[#0F0F0F] transition-transform duration-300 ${swipeProgress > 80 ? 'translate-x-1 scale-110' : ''}`} strokeWidth={3} />
+                                        <ChevronRight className={`w-7 h-7 text-[#0F0F0F] transition-transform duration-300 ${swipeProgress > 80 ? 'translate-x-1 scale-110' : ''}`} strokeWidth={3} />
                                     </div>
 
                                     {/* Finishing Glow */}
                                     <div
-                                        className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#FF9F29]/20 to-transparent transition-opacity duration-300 pointer-events-none"
+                                        className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[#FF9F29]/20 to-transparent transition-opacity duration-300 pointer-events-none"
                                         style={{ opacity: swipeProgress / 100 }}
                                     />
                                 </div>
@@ -402,7 +402,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                         className="absolute inset-0 bg-[#0F0F0F] will-change-transform"
                         style={step2Style}
                     >
-                        <div className="flex-1 flex flex-col p-8 pt-16 bg-[#0F0F0F] relative overflow-hidden">
+                        <div className="h-full min-h-0 flex flex-col p-8 pt-16 bg-[#0F0F0F] relative overflow-hidden">
                             {/* Abstract background blur for premium feel */}
                             <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#FF9F29]/10 rounded-full blur-[100px] pointer-events-none" />
                             <div className="absolute -bottom-28 -left-24 w-72 h-72 bg-[#FFBF71]/10 rounded-full blur-[110px] pointer-events-none wow-orb" />
@@ -454,7 +454,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
 
                             <div
                                 ref={scrollContainerRef}
-                                className="flex-1 space-y-4 overflow-y-auto no-scrollbar pr-2 custom-scrollbar pb-8 relative z-10"
+                                className="flex-1 min-h-0 space-y-4 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y pr-2 custom-scrollbar pb-8 relative z-10"
                             >
                                 {ACTIVITY_CATEGORIES.filter(c => c.id !== 'all').map((category) => (
                                     <button

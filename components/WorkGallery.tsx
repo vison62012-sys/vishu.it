@@ -20,7 +20,14 @@ const WorkGallery: React.FC<WorkGalleryProps> = ({ items }) => {
             {/* Container for images */}
             <div className="absolute inset-0 flex">
                 <div className="w-[55%] h-full relative overflow-hidden">
-                    <img src={item.beforeImage} alt="Before" className="absolute inset-0 w-[182%] max-w-none h-full object-cover" />
+                    {item.beforeImage.includes('-desktop.webp') ? (
+                        <picture>
+                            <source media="(max-width: 640px)" srcSet={item.beforeImage.replace('-desktop.webp', '-mobile.webp')} type="image/webp" />
+                            <img src={item.beforeImage} alt="Before" className="absolute inset-0 w-[182%] max-w-none h-full object-cover" />
+                        </picture>
+                    ) : (
+                        <img src={item.beforeImage} alt="Before" className="absolute inset-0 w-[182%] max-w-none h-full object-cover" />
+                    )}
                     {/* Dark gradient overlay at bottom for text readability */}
                     <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
                     <div className="absolute bottom-4 left-4">
@@ -29,7 +36,14 @@ const WorkGallery: React.FC<WorkGalleryProps> = ({ items }) => {
                 </div>
                 <div className="w-[45%] h-full relative overflow-hidden">
                     {/* Shift image left to align visually */}
-                    <img src={item.afterImage} alt="After" className="absolute inset-0 left-[-120%] w-[222%] max-w-none h-full object-cover" />
+                    {item.afterImage.includes('-desktop.webp') ? (
+                        <picture>
+                            <source media="(max-width: 640px)" srcSet={item.afterImage.replace('-desktop.webp', '-mobile.webp')} type="image/webp" />
+                            <img src={item.afterImage} alt="After" className="absolute inset-0 left-[-120%] w-[222%] max-w-none h-full object-cover" />
+                        </picture>
+                    ) : (
+                        <img src={item.afterImage} alt="After" className="absolute inset-0 left-[-120%] w-[222%] max-w-none h-full object-cover" />
+                    )}
                     <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/80 to-transparent"></div>
                     <div className="absolute bottom-4 right-4">
                         <span className="text-[10px] font-bold text-white/90 uppercase tracking-wider drop-shadow-md">After</span>

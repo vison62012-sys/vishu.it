@@ -49,7 +49,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📝',
     category: 'Digitalizzazione',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1505577058444-a3dab90d4253?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W1-desktop.webp',
+    alt: "Receptionist che utilizza tablet per check-in digitale in spa",
     problem: 'Modulo cartaceo all’arrivo = ritardi in reception e tempi morti prima del trattamento.',
     solutions: [
       'Invio link anamnesi/consensi 24h prima via WhatsApp/SMS',
@@ -73,7 +74,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🔁',
     category: 'Marketing Digitale',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W2-desktop.webp',
+    alt: "Calendario su smartphone per prenotazione appuntamento estetico",
     problem: 'Il cliente dimentica di riprenotare e torna dopo troppo tempo: calendario vuoto nelle settimane sbagliate.',
     solutions: [
       'Algoritmo per frequenze per servizio (ceretta, colore, manicure)',
@@ -97,7 +99,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🎥',
     category: 'E-commerce',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W3-desktop.webp',
+    alt: "Consulenza video su smartphone per cura della pelle",
     problem: 'Difficile vendere prodotti post-trattamento senza un consulto dedicato e dati del cliente.',
     solutions: [
       'Mini video-consulenza guidata con checklist difetti/obiettivi',
@@ -121,7 +124,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📲',
     category: 'Digitalizzazione',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W4-desktop.webp',
+    alt: "Menu trattamenti spa visualizzato su tablet",
     problem: 'Clienti indecisi o ignari dei trattamenti premium disponibili.',
     solutions: [
       'Gallery Prima/Dopo e video brevi per ciascun trattamento',
@@ -145,7 +149,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '💳',
     category: 'Marketing Digitale',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1519741491041-0a3f8e47b17b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W5-desktop.webp',
+    alt: "Cliente felice in accappatoio che si rilassa in spa",
     problem: 'Entrate altalenanti e scarsa previsione del fatturato.',
     solutions: [
       'Piani mensili con accesso illimitato/contingentato',
@@ -169,7 +174,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🔔',
     category: 'Marketing Digitale',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1544717305-996b815c338c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W6-desktop.webp',
+    alt: "Notifica smartphone per offerta last minute centro estetico",
     problem: 'Fasce orarie bucate per disdette improvvise.',
     solutions: [
       'Canale WhatsApp prioritario per slot last-minute',
@@ -193,7 +199,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '☁��',
     category: 'Digitalizzazione',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/W7-desktop.webp',
+    alt: "Tablet con scheda cliente e storico trattamenti",
     problem: 'Difficile ricordare preferenze colore, prodotti e note su ogni cliente.',
     solutions: [
       'Scheda cliente con storico colori, mix e foto',
@@ -219,7 +226,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📹',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1517940310602-65f39ab5f6d7?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A1-desktop.webp',
+    alt: "Meccanico che mostra un pezzo di ricambio e usa lo smartphone",
     problem: 'Diffidenza sul preventivo e rallentamenti in accettazione.',
     solutions: [
       'Ripresa veloce del problema con evidenza del pezzo',
@@ -243,7 +251,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🔑',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1512654448253-f8d7e6b6105b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A2-desktop.webp',
+    alt: "Chiavi dell'auto in una cassetta di sicurezza",
     problem: 'Clienti che non possono passare negli orari di apertura.',
     solutions: [
       'Key box con OTP e tracciamento accessi',
@@ -267,7 +276,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🗓️',
     category: 'Marketing Digitale',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A3-desktop.webp',
+    alt: "Smartphone con notifica scadenza manutenzione auto",
     problem: 'Clienti che si dimenticano le scadenze e officina con stagionalità estrema.',
     solutions: [
       'Calendario predittivo per targa/km',
@@ -291,7 +301,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📍',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1515922847569-1620b942f64e?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A4-desktop.webp',
+    alt: "Meccanico al lavoro su auto in officina moderna",
     problem: 'Telefonate continue “È pronta?” che disturbano il flusso in officina.',
     solutions: [
       'Pagina stato con aggiornamenti in tempo reale',
@@ -315,7 +326,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🚘',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A5-desktop.webp',
+    alt: "Consegna chiavi auto di cortesia pulita",
     problem: 'Gestione manuale e rischiosa della documentazione per l’auto sostitutiva.',
     solutions: [
       'Calendario disponibilità con prenotazione online',
@@ -339,7 +351,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📦',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1471478331149-c72f17e33c73?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A6-desktop.webp',
+    alt: "Autista che ritira auto per servizio a domicilio",
     problem: 'Clienti senza tempo per portare l’auto in officina.',
     solutions: [
       'Flusso prenotazione ritiro/consegna',
@@ -363,7 +376,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📂',
     category: 'Digitalizzazione',
     activityType: 'autocare',
-    image: 'https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/A7-desktop.webp',
+    alt: "Tablet che mostra storico manutenzione auto in officina",
     problem: 'Storico interventi disperso su carte o software non accessibile al cliente.',
     solutions: [
       'Storico lavori con fatture e foto',
@@ -387,7 +401,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '💻',
     category: 'Digitalizzazione',
     activityType: 'general',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/1-desktop.webp',
+    alt: "Ufficio moderno con team che lavora su processi digitali",
     problem: 'Le attività tradizionali perdono tempo e denaro con processi manuali, errori umani e inefficienze operative che rallentano la crescita e aumentano i costi.',
     solutions: [
       'Analisi completa dei processi aziendali esistenti',
@@ -462,7 +477,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '☁️',
     category: 'Cloud & Sicurezza',
     activityType: 'general',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/2-desktop.webp',
+    alt: "Server room moderna e sicura con luci blu",
     problem: 'Server obsoleti, costi di manutenzione elevati, rischi di perdita dati e limiti di scalabilità stanno frenando la crescita della tua azienda.',
     solutions: [
       'Valutazione dell\'infrastruttura attuale',
@@ -520,7 +536,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🛒',
     category: 'E-commerce',
     activityType: 'retail',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/3-desktop.webp',
+    alt: "Persona che fa acquisti online con carta di credito e laptop",
     problem: 'Senza presenza online, perdi clienti che cercano i tuoi prodotti su internet. I competitor online stanno conquistando il tuo mercato mentre tu vendi solo durante gli orari di apertura.',
     solutions: [
       'Progettazione e sviluppo e-commerce personalizzato',
@@ -579,7 +596,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📱',
     category: 'Marketing Digitale',
     activityType: 'general',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/4-desktop.webp',
+    alt: "Dashboard di marketing digitale su tablet e smartphone",
     problem: 'Marketing manuale è costoso, lento e difficile da misurare. Stai perdendo opportunità di vendita perché non riesci a seguire tutti i lead e mantenere i clienti coinvolti.',
     solutions: [
       'Setup automazioni email marketing',
@@ -638,7 +656,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🏖️',
     category: 'Digitalizzazione',
     activityType: 'beach',
-    image: 'https://images.unsplash.com/photo-1507525421304-6d8d5e5c8c8f?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/5-desktop.webp',
+    alt: "Ombrelloni in spiaggia ordinati con cielo azzurro",
     problem: 'Telefono che squilla sempre, overbooking, no-show',
     solutions: [
       'Mappa interattiva con disponibilità in tempo reale',
@@ -706,7 +725,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🍔',
     category: 'Digitalizzazione',
     activityType: 'beach',
-    image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/6-desktop.webp',
+    alt: "Cocktail e cibo serviti sotto l'ombrellone in spiaggia",
     problem: 'File al bar, clienti che rinunciano per pigrizia, staff stressato',
     solutions: [
       'Ordini da smartphone con geolocalizzazione',
@@ -774,7 +794,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📱',
     category: 'Digitalizzazione',
     activityType: 'restaurant',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/7-desktop.webp',
+    alt: "Cliente che scansiona QR code menu al ristorante",
     problem: 'Menu cartacei unti, costi di ristampa, prezzi non aggiornabili',
     solutions: [
       'Menu digitale accessibile via QR code',
@@ -842,7 +863,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🎉',
     category: 'Marketing Digitale',
     activityType: 'events',
-    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/8-desktop.webp',
+    alt: "Folla che festeggia in discoteca con luci colorate",
     problem: 'Prenotazioni su foglietti volanti, serate vuote, disorganizzazione',
     solutions: [
       'Landing page dedicata per ogni evento',
@@ -910,7 +932,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🧘',
     category: 'Digitalizzazione',
     activityType: 'wellness',
-    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/9-desktop.webp',
+    alt: "Persone che praticano yoga all'aperto con tappetini",
     problem: 'Gestione caotica orari, attrezzatura ferma, scarico responsabilità',
     solutions: [
       'Booking slot orari online',
@@ -978,7 +1001,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '📖',
     category: 'Digitalizzazione',
     activityType: 'beach',
-    image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?auto=format&fit=crop&w=800&q=80',
+    image: '/images/services/10-desktop.webp',
+    alt: "QR code su tavolo spiaggia per informazioni servizi",
     problem: 'Staff bombardato dalle stesse domande (Wi-Fi, bagni, orari)',
     solutions: [
       'Welcome book digitale accessibile via QR',
@@ -1913,7 +1937,7 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '👥',
     category: 'Digitalizzazione',
     activityType: 'restaurant',
-    image: 'https://images.unsplash.com/photo-1529672432315-750ca0cf3e78?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=1200&q=80',
     problem: 'Tavolate da 20 che non si presentano (no-show), conti separati infiniti e confusione sulle scelte dei menù fissi.',
     stats: [
       { icon: '🛡️', label: "No-Show", value: "Zero", color: "from-blue-500/20 to-blue-600/10", text: "text-blue-400" },
@@ -1967,7 +1991,7 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     icon: '🎁',
     category: 'E-commerce',
     activityType: 'restaurant',
-    image: 'https://images.unsplash.com/photo-1549463591-1476b454 base6?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1549463591-1476b4542191?auto=format&fit=crop&w=1200&q=80',
     problem: 'Gente che vorrebbe regalare una cena ma non sa come fare, o tu che devi gestire buoni cartacei scritti a mano.',
     stats: [
       { icon: '📈', label: "New Sales", value: "+12%", color: "from-green-500/20 to-green-600/10", text: "text-green-400" },
@@ -7048,7 +7072,7 @@ export const STYLIST_DATA = {
   address: "Servizi IT Professionali",
   rating: 4.9,
   rate: 150.00,
-  image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+  image: "/images/services/stylist-profile-desktop.webp"
 };
 
 export const SERVICES_DATA = CONSULTING_SERVICES.slice(0, 3).map(s => ({
@@ -7061,13 +7085,13 @@ export const SERVICES_DATA = CONSULTING_SERVICES.slice(0, 3).map(s => ({
 export const LATEST_WORK_DATA = [
   {
     id: '1',
-    beforeImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=300&q=80",
-    afterImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=300&q=80"
+    beforeImage: "/images/services/work-1-before-desktop.webp",
+    afterImage: "/images/services/4-desktop.webp"
   },
   {
     id: '2',
-    beforeImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=300&q=80",
-    afterImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=300&q=80"
+    beforeImage: "/images/services/work-2-before-desktop.webp",
+    afterImage: "/images/services/1-desktop.webp"
   }
 ];
 

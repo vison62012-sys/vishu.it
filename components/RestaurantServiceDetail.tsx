@@ -48,6 +48,9 @@ const RestaurantServiceDetail: React.FC<RestaurantServiceDetailProps> = ({ servi
                         src={service.image}
                         alt={service.name}
                         className="w-full h-full object-cover scale-110 animate-pulse-slow"
+                        onError={(e) => {
+                            e.currentTarget.src = 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80';
+                        }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/40 via-brand-dark/60 to-brand-dark"></div>
                     <div className="absolute inset-0 bg-gradient-to-r from-brand-orange/20 to-transparent"></div>

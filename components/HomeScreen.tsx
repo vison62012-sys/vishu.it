@@ -23,6 +23,10 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
   }, [initialCategory]);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [currentProfileImage, setCurrentProfileImage] = useState(0);
+  const [showPinInput, setShowPinInput] = useState(false);
+  const [pinValue, setPinValue] = useState('');
+  const secretClicksRef = useRef(0);
+  const clickTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const scrollRef = React.useRef<HTMLDivElement>(null);
   const [isMatrixMode, setIsMatrixMode] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -45,9 +49,6 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
 
     return allTab ? [allTab, initial, ...others] : [initial, ...others];
   }, [initialCategory]);
-
-  // Non cambiare il filtro attivo quando cambia initialCategory
-  // Il filtro rimane sempre su 'all' di default
 
   // Scroll to top when category changes
   useEffect(() => {
@@ -199,15 +200,69 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       services = services.filter(s =>
-        s.title.toLowerCase().includes(query) ||
-        s.tagline.toLowerCase().includes(query) ||
-        s.description.toLowerCase().includes(query) ||
-        s.category.toLowerCase().includes(query)
+        s.title?.toLowerCase().includes(query) ||
+        s.tagline?.toLowerCase().includes(query) ||
+        s.description?.toLowerCase().includes(query) ||
+        s.category?.toLowerCase().includes(query) ||
+        s.name?.toLowerCase().includes(query) ||
+        s.shortDescription?.toLowerCase().includes(query)
       );
     }
 
     return services;
   }, [sortedServices, activeCategory, searchQuery]);
+
+  const handleHeaderClick = () => {
+    if (clickTimeoutRef.current) {
+      clearTimeout(clickTimeoutRef.current);
+    }
+
+    secretClicksRef.current += 1;
+    
+    if (secretClicksRef.current >= 20) {
+      setShowPinInput(true);
+      secretClicksRef.current = 0;
+    } else {
+      clickTimeoutRef.current = setTimeout(() => {
+        secretClicksRef.current = 0;
+      }, 2000);
+    }
+  };
+
+  const downloadCSV = () => {
+    const headers = ['Titolo', 'Descrizione'];
+    const rows = CONSULTING_SERVICES.map(s => [
+      s.name || s.title || '',
+      s.shortDescription || s.description || ''
+    ]);
+
+    const csvContent = [
+      headers.join(';'),
+      ...rows.map(r => r.map(cell => `"${cell.replace(/"/g, '""')}"`).join(';'))
+    ].join('\n');
+
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    const url = URL.createObjectURL(blob);
+    link.setAttribute('href', url);
+    link.setAttribute('download', 'servizi_consulenza.csv');
+    link.style.visibility = 'hidden';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handlePinSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (pinValue === '313131') {
+      downloadCSV();
+      setShowPinInput(false);
+      setPinValue('');
+    } else {
+      alert('PIN errato');
+      setPinValue('');
+    }
+  };
 
   return (
     <div className={`min-h-screen flex flex-col relative overflow-hidden font-sans ${isMatrixMode ? '' : 'bg-brand-dark'}`}>
@@ -352,8 +407,12 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
         {/* Categorie Servizi Espandibili */}
         <div>
           <div className="flex justify-between items-end mb-6">
-            <h2 className="text-white text-[18px] font-bold tracking-wide">
+            <h2 
+              onClick={handleHeaderClick}
+              className="text-white text-[18px] font-bold tracking-wide cursor-pointer select-none active:scale-[0.99] transition-transform flex items-center gap-2"
+            >
               {searchQuery ? `Risultati per "${searchQuery}"` : 'Le Nostre Categorie'}
+              <span>🤫</span>
             </h2>
             {searchQuery && (
               <span className="text-white/50 text-[12px]">
@@ -476,6 +535,41 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
         </div>
 
       </div>
+
+      {/* PIN Modal */}
+      {showPinInput && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+          <div className="bg-brand-card border border-white/10 rounded-[32px] p-8 w-full max-w-sm shadow-2xl">
+            <h3 className="text-white text-xl font-bold mb-2 text-center">Area Segreta</h3>
+            <p className="text-white/60 text-sm mb-6 text-center">Inserisci il PIN per scaricare l'elenco servizi</p>
+            <form onSubmit={handlePinSubmit} className="space-y-4">
+              <input
+                type="password"
+                value={pinValue}
+                onChange={(e) => setPinValue(e.target.value)}
+                placeholder="Inserisci PIN"
+                autoFocus
+                className="w-full h-14 bg-white/5 border border-white/10 rounded-2xl px-4 text-white text-center text-2xl tracking-[0.5em] outline-none focus:border-brand-orange/50 transition-colors"
+              />
+              <div className="flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => setShowPinInput(false)}
+                  className="flex-1 h-12 rounded-2xl text-white/60 font-medium hover:bg-white/5 transition-colors"
+                >
+                  Annulla
+                </button>
+                <button
+                  type="submit"
+                  className="flex-1 h-12 bg-brand-orange rounded-2xl text-brand-dark font-bold hover:brightness-110 active:scale-95 transition-all"
+                >
+                  Conferma
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
     </div>
   );
