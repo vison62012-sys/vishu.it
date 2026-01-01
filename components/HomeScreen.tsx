@@ -120,7 +120,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
       // try start audio (user gesture already occurred by toggle)
       if (audio) {
         audio.volume = 0.25;
-        audio.play().catch(() => {});
+        audio.play().catch(() => { });
       }
 
       return () => {
@@ -200,9 +200,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       services = services.filter(s =>
-        s.title?.toLowerCase().includes(query) ||
         s.tagline?.toLowerCase().includes(query) ||
-        s.description?.toLowerCase().includes(query) ||
         s.category?.toLowerCase().includes(query) ||
         s.name?.toLowerCase().includes(query) ||
         s.shortDescription?.toLowerCase().includes(query)
@@ -218,7 +216,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
     }
 
     secretClicksRef.current += 1;
-    
+
     if (secretClicksRef.current >= 20) {
       setShowPinInput(true);
       secretClicksRef.current = 0;
@@ -232,8 +230,8 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
   const downloadCSV = () => {
     const headers = ['Titolo', 'Descrizione'];
     const rows = CONSULTING_SERVICES.map(s => [
-      s.name || s.title || '',
-      s.shortDescription || s.description || ''
+      s.name || '',
+      s.shortDescription || ''
     ]);
 
     const csvContent = [
@@ -407,7 +405,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
         {/* Categorie Servizi Espandibili */}
         <div>
           <div className="flex justify-between items-end mb-6">
-            <h2 
+            <h2
               onClick={handleHeaderClick}
               className="text-white text-[18px] font-bold tracking-wide cursor-pointer select-none active:scale-[0.99] transition-transform flex items-center gap-2"
             >
@@ -468,7 +466,28 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
                   'realestate': 'https://images.unsplash.com/photo-1582408921715-18e7806365c1?auto=format&fit=crop&w=1200&q=80',
                   'jewelry': 'https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?auto=format&fit=crop&w=1200&q=80',
                   'kids': 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1200&q=80',
+                  'medical': 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80',
+                  'fitness': 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80',
+                  'legal': 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1200&q=80',
+                  'pets': 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80',
+                  'barber': 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=80',
+                  'pharma': 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80',
+                  'home': 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
+                  'travel': 'https://images.unsplash.com/photo-1436491865332-7a615109cc05?auto=format&fit=crop&w=1200&q=80',
+                  'education': 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80',
                   'general': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
+                  'tech': 'https://images.unsplash.com/photo-1597424214771-3f69e63e6e87?auto=format&fit=crop&w=1200&q=80',
+                  'construction': 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80',
+                  'gardening': 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80',
+                  'cleaning': 'https://images.unsplash.com/photo-1581578731117-104f2a41272c?auto=format&fit=crop&w=1200&q=80',
+                  'photo': 'https://images.unsplash.com/photo-1554048612-387768052bf7?auto=format&fit=crop&w=1200&q=80',
+                  'tattoo': 'https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=1200&q=80',
+                  'florist': 'https://images.unsplash.com/photo-1562690868-60bbe7621e0c?auto=format&fit=crop&w=1200&q=80',
+                  'grocery': 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80',
+                  'laundry': 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80',
+                  'coworking': 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80',
+                  'carsales': 'https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1200&q=80',
+                  'insurance': 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80',
                 };
 
                 if (categoryServices.length === 0) return null;
