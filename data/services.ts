@@ -7307,8 +7307,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1575424909138-46b0530e7958?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che devono alzarsi per ordinare al bar, creando file e assembramenti.",
-    solutions: ["QR Code su ogni ombrellone","Pagamento in-app","Consegna al posto"],
-    economicBenefits: {"title":"Scontrino Medio","benefits":["+20% ordini bar","Meno personale in giro"],"savings":"+15% fatturato bar"}
+    solutions: ["QR Code su ogni ombrellone", "Pagamento in-app", "Consegna al posto"],
+    economicBenefits: { "title": "Scontrino Medio", "benefits": ["+20% ordini bar", "Meno personale in giro"], "savings": "+15% fatturato bar" }
   },
   {
     id: 'BCH3',
@@ -7319,8 +7319,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     problem: "Gestione telefonica delle prenotazioni e overbooking nei weekend.",
-    solutions: ["Mappa visuale spiaggia","Calendario disponibilità","Pagamento anticipato"],
-    economicBenefits: {"title":"Cashflow","benefits":["Incasso anticipato","Zero no-show"],"savings":"-90% tempo telefono"}
+    solutions: ["Mappa visuale spiaggia", "Calendario disponibilità", "Pagamento anticipato"],
+    economicBenefits: { "title": "Cashflow", "benefits": ["Incasso anticipato", "Zero no-show"], "savings": "-90% tempo telefono" }
   },
   {
     id: 'BCH4',
@@ -7331,8 +7331,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1544731612-de7f96afe55f?auto=format&fit=crop&w=800&q=80',
     problem: "Mancanza di contatti diretti dei clienti giornalieri.",
-    solutions: ["Captive portal login","Raccolta email/telefono","Sondaggi soddisfazione"],
-    economicBenefits: {"title":"Database","benefits":["Migliaia di contatti profilati","Retargeting facile"],"savings":"Costo lead ~0€"}
+    solutions: ["Captive portal login", "Raccolta email/telefono", "Sondaggi soddisfazione"],
+    economicBenefits: { "title": "Database", "benefits": ["Migliaia di contatti profilati", "Retargeting facile"], "savings": "Costo lead ~0€" }
   },
   {
     id: 'BCH5',
@@ -7343,8 +7343,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a riempire il locale per eventi infrasettimanali.",
-    solutions: ["Lista broadcast WhatsApp","Prenotazione tavoli VIP","Promozioni flash"],
-    economicBenefits: {"title":"Pienone","benefits":["Sold-out rapidi","Fidelizzazione giovani"],"savings":"-50% budget ads"}
+    solutions: ["Lista broadcast WhatsApp", "Prenotazione tavoli VIP", "Promozioni flash"],
+    economicBenefits: { "title": "Pienone", "benefits": ["Sold-out rapidi", "Fidelizzazione giovani"], "savings": "-50% budget ads" }
   },
   {
     id: 'BCH6',
@@ -7355,8 +7355,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1563299796-b729d0af54a5?auto=format&fit=crop&w=800&q=80',
     problem: "Uso abusivo servizi e gettoni fisici scomodi.",
-    solutions: ["Credito su braccialetto","Controllo accessi area","Ricarica online"],
-    economicBenefits: {"title":"Controllo","benefits":["Zero abusi","Incasso servizi extra"],"savings":"+30% ricavi servizi"}
+    solutions: ["Credito su braccialetto", "Controllo accessi area", "Ricarica online"],
+    economicBenefits: { "title": "Controllo", "benefits": ["Zero abusi", "Incasso servizi extra"], "savings": "+30% ricavi servizi" }
   },
   {
     id: 'BCH7',
@@ -7367,8 +7367,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1526848123284-e431dfc95781?auto=format&fit=crop&w=800&q=80',
     problem: "Moduli cartacei e responsabilità legale per animazione.",
-    solutions: ["Scheda digitale genitore","Braccialetto abbinato","Log entrata/uscita"],
-    economicBenefits: {"title":"Sicurezza","benefits":["Tutela legale totale","Fiducia famiglie"],"savings":"Zero rischi"}
+    solutions: ["Scheda digitale genitore", "Braccialetto abbinato", "Log entrata/uscita"],
+    economicBenefits: { "title": "Sicurezza", "benefits": ["Tutela legale totale", "Fiducia famiglie"], "savings": "Zero rischi" }
   },
   {
     id: 'BCH8',
@@ -7379,8 +7379,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1514632595-4944383f27f4?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che chiamano per chiedere se piove o chiedere rimborsi.",
-    solutions: ["Webcam live streaming","Status apertura real-time","Voucher automatico pioggia"],
-    economicBenefits: {"title":"Servizio Clienti","benefits":["Meno chiamate","Clienti rassicurati"],"savings":"Tempo staff"}
+    solutions: ["Webcam live streaming", "Status apertura real-time", "Voucher automatico pioggia"],
+    economicBenefits: { "title": "Servizio Clienti", "benefits": ["Meno chiamate", "Clienti rassicurati"], "savings": "Tempo staff" }
   },
   {
     id: 'BCH9',
@@ -7391,8 +7391,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80',
     problem: "Rincorrere i pagamenti dei clienti stagionali.",
-    solutions: ["Addebito ricorrente carta","Portale gestione cliente","Upgrade servizi"],
-    economicBenefits: {"title":"Flusso Cassa","benefits":["Pagamenti puntuali","Meno insoluti"],"savings":"+100% puntualità"}
+    solutions: ["Addebito ricorrente carta", "Portale gestione cliente", "Upgrade servizi"],
+    economicBenefits: { "title": "Flusso Cassa", "benefits": ["Pagamenti puntuali", "Meno insoluti"], "savings": "+100% puntualità" }
   },
   {
     id: 'BCH10',
@@ -7403,8 +7403,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'beach',
     image: 'https://images.unsplash.com/photo-1519046904884-53103b34b271?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a vendere abbonamenti a distanza fuori stagione.",
-    solutions: ["Tour 360°","Foto drone","Punto di vista ombrellone"],
-    economicBenefits: {"title":"Vendite Anticipate","benefits":["Vendita tutto l'anno","Clienti esteri"],"savings":"+20% vendite invernali"}
+    solutions: ["Tour 360°", "Foto drone", "Punto di vista ombrellone"],
+    economicBenefits: { "title": "Vendite Anticipate", "benefits": ["Vendita tutto l'anno", "Clienti esteri"], "savings": "+20% vendite invernali" }
   },
   {
     id: 'RST2',
@@ -7415,8 +7415,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=800&q=80',
     problem: "Variazione prezzi fornitori che erode i margini senza accorgersene.",
-    solutions: ["Integrazione listini fornitori","Alert margine basso","Suggerimento prezzo"],
-    economicBenefits: {"title":"Marginalità","benefits":["Controllo costi","Prezzi sempre corretti"],"savings":"+5-8% utile netto"}
+    solutions: ["Integrazione listini fornitori", "Alert margine basso", "Suggerimento prezzo"],
+    economicBenefits: { "title": "Marginalità", "benefits": ["Controllo costi", "Prezzi sempre corretti"], "savings": "+5-8% utile netto" }
   },
   {
     id: 'RST3',
@@ -7426,9 +7426,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Automazione',
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80',
-    problem: "Errori di comanda ("senza cipolla") e tempi lunghi di comunicazione.",
-    solutions: ["Palmari Android/iOS","Stampa diretta reparti","Gestione varianti"],
-    economicBenefits: {"title":"Velocità","benefits":["Rotazione tavoli più alta","Zero piatti sbagliati"],"savings":"+15 minuti/tavolo"}
+    problem: "Errori di comanda ('senza cipolla') e tempi lunghi di comunicazione.",
+    solutions: ["Palmari Android/iOS", "Stampa diretta reparti", "Gestione varianti"],
+    economicBenefits: { "title": "Velocità", "benefits": ["Rotazione tavoli più alta", "Zero piatti sbagliati"], "savings": "+15 minuti/tavolo" }
   },
   {
     id: 'RST4',
@@ -7439,8 +7439,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
     problem: "Recensioni negative ignorate o risposte in ritardo che danneggiano l'immagine.",
-    solutions: ["Aggregatore TripAdvisor/Google","Risposte AI approvabili","Alert criticità"],
-    economicBenefits: {"title":"Brand","benefits":["Miglior ranking","Più clienti turisti"],"savings":"Tempo titolare"}
+    solutions: ["Aggregatore TripAdvisor/Google", "Risposte AI approvabili", "Alert criticità"],
+    economicBenefits: { "title": "Brand", "benefits": ["Miglior ranking", "Più clienti turisti"], "savings": "Tempo titolare" }
   },
   {
     id: 'RST5',
@@ -7451,8 +7451,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=800&q=80',
     problem: "Caos su WhatsApp per cambi turno e ferie, buchi in servizio.",
-    solutions: ["App dipendenti","Richieste ferie digitali","Planning automatico"],
-    economicBenefits: {"title":"Organizzazione","benefits":["Staff più felice","Copertura garantita"],"savings":"-3 ore/sett gestione"}
+    solutions: ["App dipendenti", "Richieste ferie digitali", "Planning automatico"],
+    economicBenefits: { "title": "Organizzazione", "benefits": ["Staff più felice", "Copertura garantita"], "savings": "-3 ore/sett gestione" }
   },
   {
     id: 'RST6',
@@ -7463,8 +7463,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80',
     problem: "Piatti buoni ma brutti in foto, poca visibilità organica social.",
-    solutions: ["Luci fotografiche tavoli","Training impiattamento","Contest hashtag"],
-    economicBenefits: {"title":"Visibilità Gratis","benefits":["Migliaia di visualizzazioni","User Generated Content"],"savings":"Budget influencer"}
+    solutions: ["Luci fotografiche tavoli", "Training impiattamento", "Contest hashtag"],
+    economicBenefits: { "title": "Visibilità Gratis", "benefits": ["Migliaia di visualizzazioni", "User Generated Content"], "savings": "Budget influencer" }
   },
   {
     id: 'RST7',
@@ -7475,8 +7475,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
     problem: "Carta vini cartacea sempre non aggiornata, camerieri che non sanno consigliare.",
-    solutions: ["Tablet interattivo","Filtri per prezzo/regione","Abbinamento automatico"],
-    economicBenefits: {"title":"Upselling","benefits":["Vendita vini più costosi","Gestione magazzino"],"savings":"+20% vendita vino"}
+    solutions: ["Tablet interattivo", "Filtri per prezzo/regione", "Abbinamento automatico"],
+    economicBenefits: { "title": "Upselling", "benefits": ["Vendita vini più costosi", "Gestione magazzino"], "savings": "+20% vendita vino" }
   },
   {
     id: 'RST8',
@@ -7487,8 +7487,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1513639776629-7b611594e29b?auto=format&fit=crop&w=800&q=80',
     problem: "Commissioni al 30-35% sulle piattaforme di delivery che azzerano l'utile.",
-    solutions: ["App ordine proprietaria","Gestione rider interni","Marketing diretto"],
-    economicBenefits: {"title":"Margine","benefits":["Recupero 30% commissione","Possesso dati cliente"],"savings":"Migliaia di euro/mese"}
+    solutions: ["App ordine proprietaria", "Gestione rider interni", "Marketing diretto"],
+    economicBenefits: { "title": "Margine", "benefits": ["Recupero 30% commissione", "Possesso dati cliente"], "savings": "Migliaia di euro/mese" }
   },
   {
     id: 'RST9',
@@ -7499,8 +7499,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1589820296156-2454bb8a4d50?auto=format&fit=crop&w=800&q=80',
     problem: "Rischi legali enormi per allergeni non segnalati e registri incompleti.",
-    solutions: ["Menu digitale allergeni","Log temperature auto","Stampa etichette"],
-    economicBenefits: {"title":"Tranquillità","benefits":["Zero multe","Sicurezza clienti"],"savings":"Rischio chiusura azzerato"}
+    solutions: ["Menu digitale allergeni", "Log temperature auto", "Stampa etichette"],
+    economicBenefits: { "title": "Tranquillità", "benefits": ["Zero multe", "Sicurezza clienti"], "savings": "Rischio chiusura azzerato" }
   },
   {
     id: 'RST10',
@@ -7511,8 +7511,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'restaurant',
     image: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti occasionali che non tornano regolarmente.",
-    solutions: ["Punti per ogni cena","Premi per compleanni","Offerte martedì/mercoledì"],
-    economicBenefits: {"title":"Ricorrenza","benefits":["+30% frequenza ritorno","Clienti alto-spendenti"],"savings":"Costo acquisizione"}
+    solutions: ["Punti per ogni cena", "Premi per compleanni", "Offerte martedì/mercoledì"],
+    economicBenefits: { "title": "Ricorrenza", "benefits": ["+30% frequenza ritorno", "Clienti alto-spendenti"], "savings": "Costo acquisizione" }
   },
   {
     id: 'HTL2',
@@ -7523,8 +7523,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80',
     problem: "Costi alti per portiere notturno o clienti che arrivano tardi.",
-    solutions: ["Invio chiavi digitali","Totem in hall","Scanner documenti OCR"],
-    economicBenefits: {"title":"Costi Personale","benefits":["Risparmio turni notte","Check-in 24/7"],"savings":"20-30k €/anno"}
+    solutions: ["Invio chiavi digitali", "Totem in hall", "Scanner documenti OCR"],
+    economicBenefits: { "title": "Costi Personale", "benefits": ["Risparmio turni notte", "Check-in 24/7"], "savings": "20-30k €/anno" }
   },
   {
     id: 'HTL3',
@@ -7534,9 +7534,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Digitalizzazione',
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80',
-    problem: "Reception intasata da richieste ripetitive ("dov'è un buon ristorante?").",
-    solutions: ["Bot risposte automatiche","Prenotazione servizi esterni","Info camere"],
-    economicBenefits: {"title":"Servizio","benefits":["Risposte immediate","Commissioni su tour venduti"],"savings":"Tempo reception"}
+    problem: "Reception intasata da richieste ripetitive ('dov\\'è un buon ristorante?').",
+    solutions: ["Bot risposte automatiche", "Prenotazione servizi esterni", "Info camere"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Risposte immediate", "Commissioni su tour venduti"], "savings": "Tempo reception" }
   },
   {
     id: 'HTL4',
@@ -7547,8 +7547,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1611048267451-e6ed903d4a38?auto=format&fit=crop&w=800&q=80',
     problem: "Camere vendute a prezzo fisso troppo basso in alta stagione o vuote in bassa.",
-    solutions: ["Algoritmo prezzi dinamico","Analisi competitor","Sincronizzazione OTA"],
-    economicBenefits: {"title":"Fatturato","benefits":["+15-20% RevPAR","Occupazione ottimizzata"],"savings":"Mancati guadagni"}
+    solutions: ["Algoritmo prezzi dinamico", "Analisi competitor", "Sincronizzazione OTA"],
+    economicBenefits: { "title": "Fatturato", "benefits": ["+15-20% RevPAR", "Occupazione ottimizzata"], "savings": "Mancati guadagni" }
   },
   {
     id: 'HTL5',
@@ -7559,8 +7559,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80',
     problem: "Room service poco utilizzato perché macchinoso da ordinare.",
-    solutions: ["Menu digitale multilingua","Foto piatti alta qualità","Ordine orario programmato"],
-    economicBenefits: {"title":"Upsell F&B","benefits":["+40% ordini colazione camera","Gestione cucina fluida"],"savings":"Meno sprechi"}
+    solutions: ["Menu digitale multilingua", "Foto piatti alta qualità", "Ordine orario programmato"],
+    economicBenefits: { "title": "Upsell F&B", "benefits": ["+40% ordini colazione camera", "Gestione cucina fluida"], "savings": "Meno sprechi" }
   },
   {
     id: 'HTL6',
@@ -7571,8 +7571,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80',
     problem: "Pagare il 18% di commissione alle OTA su ogni prenotazione.",
-    solutions: ["Booking engine proprietario","Offerte esclusive club","Comparatore prezzi"],
-    economicBenefits: {"title":"Margine","benefits":["Risparmio commissioni","Dati clienti proprietari"],"savings":"+18% su ogni booking diretto"}
+    solutions: ["Booking engine proprietario", "Offerte esclusive club", "Comparatore prezzi"],
+    economicBenefits: { "title": "Margine", "benefits": ["Risparmio commissioni", "Dati clienti proprietari"], "savings": "+18% su ogni booking diretto" }
   },
   {
     id: 'HTL7',
@@ -7583,8 +7583,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1584622050111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
     problem: "Reception non sa se le camere sono pronte, clienti aspettano.",
-    solutions: ["Stato camera su tablet","Segnalazione guasti","Priorità pulizie"],
-    economicBenefits: {"title":"Efficienza","benefits":["Check-in anticipati","Manutenzione rapida"],"savings":"Tempo coordinamento"}
+    solutions: ["Stato camera su tablet", "Segnalazione guasti", "Priorità pulizie"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Check-in anticipati", "Manutenzione rapida"], "savings": "Tempo coordinamento" }
   },
   {
     id: 'HTL8',
@@ -7595,8 +7595,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1565514020176-7c22e77cc81c?auto=format&fit=crop&w=800&q=80',
     problem: "Bollette energetiche altissime per aria condizionata lasciata accesa.",
-    solutions: ["Sensori presenza","Controllo remoto clima","Card switch intelligente"],
-    economicBenefits: {"title":"Clima","benefits":["-30% costi energetici","Sostenibilità Green"],"savings":"Migliaia euro/anno"}
+    solutions: ["Sensori presenza", "Controllo remoto clima", "Card switch intelligente"],
+    economicBenefits: { "title": "Clima", "benefits": ["-30% costi energetici", "Sostenibilità Green"], "savings": "Migliaia euro/anno" }
   },
   {
     id: 'HTL9',
@@ -7607,8 +7607,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80',
     problem: "Recensioni negative per Wi-Fi lento o non funzionante.",
-    solutions: ["Rete Mesh copertura totale","Banda garantita","Sicurezza dati ospiti"],
-    economicBenefits: {"title":"Business Travel","benefits":["Attrazione smart workers","Recensioni positive"],"savings":"Clienti persi"}
+    solutions: ["Rete Mesh copertura totale", "Banda garantita", "Sicurezza dati ospiti"],
+    economicBenefits: { "title": "Business Travel", "benefits": ["Attrazione smart workers", "Recensioni positive"], "savings": "Clienti persi" }
   },
   {
     id: 'HTL10',
@@ -7619,8 +7619,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'hotel',
     image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
     problem: "Ospiti annoiati che non sanno cosa fare.",
-    solutions: ["Catalogo digitale esperienze","Prenotazione diretta","Partnership locali"],
-    economicBenefits: {"title":"Cross-selling","benefits":["Commissioni 10-20%","Ospiti soddisfatti"],"savings":"Valore soggiorno aumentato"}
+    solutions: ["Catalogo digitale esperienze", "Prenotazione diretta", "Partnership locali"],
+    economicBenefits: { "title": "Cross-selling", "benefits": ["Commissioni 10-20%", "Ospiti soddisfatti"], "savings": "Valore soggiorno aumentato" }
   },
 
   // --- BATCH 1 PART 2 GENERATED ---
@@ -7633,8 +7633,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'events',
     image: 'https://images.unsplash.com/photo-1492684223066-81342eefaecf?auto=format&fit=crop&w=800&q=80',
     problem: "Siti di biglietteria lenti che fanno abbandonare l'acquisto.",
-    solutions: ["Checkout in 2 click","Integrazione social","Scarsità (posti rimasti)"],
-    economicBenefits: {"title":"Vendite","benefits":["+30% conversion rate","Incasso immediato"],"savings":"Commissioni biglietterie terze"}
+    solutions: ["Checkout in 2 click", "Integrazione social", "Scarsità (posti rimasti)"],
+    economicBenefits: { "title": "Vendite", "benefits": ["+30% conversion rate", "Incasso immediato"], "savings": "Commissioni biglietterie terze" }
   },
   {
     id: 'EVT3',
@@ -7645,8 +7645,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'events',
     image: 'https://images.unsplash.com/photo-1598550476439-cce86041e8c3?auto=format&fit=crop&w=800&q=80',
     problem: "Capienza limitata della location fisica.",
-    solutions: ["Streaming HD pay-per-view","Chat interattiva","Registrazione cloud"],
-    economicBenefits: {"title":"Audience","benefits":["Illimitati partecipanti online","Ricavi extra biglietti virtuali"],"savings":"Costo affitto sala più grande"}
+    solutions: ["Streaming HD pay-per-view", "Chat interattiva", "Registrazione cloud"],
+    economicBenefits: { "title": "Audience", "benefits": ["Illimitati partecipanti online", "Ricavi extra biglietti virtuali"], "savings": "Costo affitto sala più grande" }
   },
   {
     id: 'EVT4',
@@ -7657,8 +7657,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'events',
     image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
     problem: "File lunghe all'ingresso e liste cartacee illeggibili.",
-    solutions: ["Scan QR 1 secondo","Sincronizzazione real-time","VIP alert"],
-    economicBenefits: {"title":"Esperienza","benefits":["Ingresso fluido","Dati precisi presenze"],"savings":"Staff all'ingresso"}
+    solutions: ["Scan QR 1 secondo", "Sincronizzazione real-time", "VIP alert"],
+    economicBenefits: { "title": "Esperienza", "benefits": ["Ingresso fluido", "Dati precisi presenze"], "savings": "Staff all'ingresso" }
   },
   {
     id: 'EVT5',
@@ -7669,8 +7669,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'events',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a trovare sponsor perché non si hanno dati certi sulla visibilità.",
-    solutions: ["Tracciamento impression","Dati demografici pubblico","Report automatico PDF"],
-    economicBenefits: {"title":"Sponsorizzazioni","benefits":["Sponsor pagano di più","Rinnovi facili"],"savings":"Tempo reportistica"}
+    solutions: ["Tracciamento impression", "Dati demografici pubblico", "Report automatico PDF"],
+    economicBenefits: { "title": "Sponsorizzazioni", "benefits": ["Sponsor pagano di più", "Rinnovi facili"], "savings": "Tempo reportistica" }
   },
   {
     id: 'KDS2',
@@ -7681,8 +7681,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'kids',
     image: 'https://images.unsplash.com/photo-1530103862676-de3c9da59af7?auto=format&fit=crop&w=800&q=80',
     problem: "Ore al telefono per spiegare i pacchetti festa e le opzioni.",
-    solutions: ["Configuratore visivo","Preventivo immediato","Acconto online"],
-    economicBenefits: {"title":"Vendite","benefits":["Genitori comprano extra","Meno tempo preventivi"],"savings":"+20% valore festa"}
+    solutions: ["Configuratore visivo", "Preventivo immediato", "Acconto online"],
+    economicBenefits: { "title": "Vendite", "benefits": ["Genitori comprano extra", "Meno tempo preventivi"], "savings": "+20% valore festa" }
   },
   {
     id: 'KDS3',
@@ -7693,8 +7693,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'kids',
     image: 'https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=800&q=80',
     problem: "Ansia sulla sicurezza e verifica di chi viene a prendere il bambino.",
-    solutions: ["Database deleghe con foto","Firma digitale ritiro","SMS notifica genitore"],
-    economicBenefits: {"title":"Reputazione","benefits":["Fiducia totale mamme","Zero rischi legali"],"savings":"Assicurazione"}
+    solutions: ["Database deleghe con foto", "Firma digitale ritiro", "SMS notifica genitore"],
+    economicBenefits: { "title": "Reputazione", "benefits": ["Fiducia totale mamme", "Zero rischi legali"], "savings": "Assicurazione" }
   },
   {
     id: 'GEL2',
@@ -7705,8 +7705,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gelateria',
     image: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=80',
     problem: "Il gelato si scioglie nel delivery standard, clienti insoddisfatti.",
-    solutions: ["Packaging termico brandizzato","Rider diretti","Ordine gusti drag&drop"],
-    economicBenefits: {"title":"Asporto","benefits":["Vendite serali +40%","Scontrino medio alto (kg)"],"savings":"Commissioni app"}
+    solutions: ["Packaging termico brandizzato", "Rider diretti", "Ordine gusti drag&drop"],
+    economicBenefits: { "title": "Asporto", "benefits": ["Vendite serali +40%", "Scontrino medio alto (kg)"], "savings": "Commissioni app" }
   },
   {
     id: 'GEL3',
@@ -7717,8 +7717,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gelateria',
     image: 'https://images.unsplash.com/photo-1505394033641-40c6ad1178d1?auto=format&fit=crop&w=800&q=80',
     problem: "Assembramenti davanti alla vetrina che scoraggiano nuovi clienti.",
-    solutions: ["Eliminacode digitale","Notifica \"è il tuo turno\"","Display tempi attesa"],
-    economicBenefits: {"title":"Flusso","benefits":["Nessuno rinuncia per la fila","Attesa più piacevole"],"savings":"Clienti persi riserve"}
+    solutions: ["Eliminacode digitale", "Notifica \"è il tuo turno\"", "Display tempi attesa"],
+    economicBenefits: { "title": "Flusso", "benefits": ["Nessuno rinuncia per la fila", "Attesa più piacevole"], "savings": "Clienti persi riserve" }
   },
   {
     id: 'BAK2',
@@ -7729,8 +7729,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'bakery',
     image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
     problem: "Tanto spreco di pane e dolci a fine giornata.",
-    solutions: ["Magic Box digitale","Notifica push ai vicini","Pagamento anticipato"],
-    economicBenefits: {"title":"Recupero","benefits":["Ricavo da merce persa","Nuovi clienti che provano"],"savings":"Costi smaltimento"}
+    solutions: ["Magic Box digitale", "Notifica push ai vicini", "Pagamento anticipato"],
+    economicBenefits: { "title": "Recupero", "benefits": ["Ricavo da merce persa", "Nuovi clienti che provano"], "savings": "Costi smaltimento" }
   },
   {
     id: 'BAK3',
@@ -7741,8 +7741,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'bakery',
     image: 'https://images.unsplash.com/photo-1555507036-ab1f40388085?auto=format&fit=crop&w=800&q=80',
     problem: "Incassi altalenanti e clienti che dimenticano di passare.",
-    solutions: ["Addebito mensile","Ritiro salt-coda","Borsa tela in omaggio"],
-    economicBenefits: {"title":"Fidelizzazione","benefits":["Incasso sicuro mensile","Cross-selling colazione"],"savings":"Tempo cassa"}
+    solutions: ["Addebito mensile", "Ritiro salt-coda", "Borsa tela in omaggio"],
+    economicBenefits: { "title": "Fidelizzazione", "benefits": ["Incasso sicuro mensile", "Cross-selling colazione"], "savings": "Tempo cassa" }
   },
 
   // --- BATCH 2 GENERATED ---
@@ -7755,8 +7755,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che non possono venire in negozio ma vogliono vedere i capi.",
-    solutions: ["Videochiamata 1-to-1","Link pagamento diretto","Spedizione express"],
-    economicBenefits: {"title":"Vendite Remoto","benefits":["+15% fatturato","Resi quasi azzerati"],"savings":"Meno merce ferma"}
+    solutions: ["Videochiamata 1-to-1", "Link pagamento diretto", "Spedizione express"],
+    economicBenefits: { "title": "Vendite Remoto", "benefits": ["+15% fatturato", "Resi quasi azzerati"], "savings": "Meno merce ferma" }
   },
   {
     id: 'RTL3',
@@ -7767,8 +7767,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80',
     problem: "File alle casse che fanno desistere i clienti rapidi.",
-    solutions: ["Ritiro in cassa dedicata","Nessuna spesa spedizione","Prova in store"],
-    economicBenefits: {"title":"Traffico","benefits":["Upselling al ritiro","Cliente soddisfatto"],"savings":"Spese spedizione"}
+    solutions: ["Ritiro in cassa dedicata", "Nessuna spesa spedizione", "Prova in store"],
+    economicBenefits: { "title": "Traffico", "benefits": ["Upselling al ritiro", "Cliente soddisfatto"], "savings": "Spese spedizione" }
   },
   {
     id: 'RTL4',
@@ -7779,8 +7779,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1556740772-14777647f0e5?auto=format&fit=crop&w=800&q=80',
     problem: "Fidelity card cartacee perse o dimenticate.",
-    solutions: ["App brandizzata","Livelli VIP","Premi esperienziali"],
-    economicBenefits: {"title":"Retention","benefits":["+25% frequenza acquisto","Dati profilati"],"savings":"Costo card plastiche"}
+    solutions: ["App brandizzata", "Livelli VIP", "Premi esperienziali"],
+    economicBenefits: { "title": "Retention", "benefits": ["+25% frequenza acquisto", "Dati profilati"], "savings": "Costo card plastiche" }
   },
   {
     id: 'RTL5',
@@ -7791,8 +7791,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80',
     problem: "Camerini affollati e difficoltà a immaginare altri colori.",
-    solutions: ["Realtà aumentata","Suggerimenti outfit","Foto social ready"],
-    economicBenefits: {"title":"Engagement","benefits":["Effetto WOW","Clienti restano di più"],"savings":"Meno capi provati/stropicciati"}
+    solutions: ["Realtà aumentata", "Suggerimenti outfit", "Foto social ready"],
+    economicBenefits: { "title": "Engagement", "benefits": ["Effetto WOW", "Clienti restano di più"], "savings": "Meno capi provati/stropicciati" }
   },
   {
     id: 'RTL6',
@@ -7803,8 +7803,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=800&q=80',
     problem: "Vendere online merce non disponibile (overselling).",
-    solutions: ["Sync real-time","Soglie scorta minime","Inventario unificato"],
-    economicBenefits: {"title":"Efficienza","benefits":["Zero ordini annullati","Magazzino snello"],"savings":"Tempo gestione ordini"}
+    solutions: ["Sync real-time", "Soglie scorta minime", "Inventario unificato"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Zero ordini annullati", "Magazzino snello"], "savings": "Tempo gestione ordini" }
   },
   {
     id: 'RTL7',
@@ -7815,8 +7815,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1512428559087-560fa5ce7d5b?auto=format&fit=crop&w=800&q=80',
     problem: "Sito e-commerce troppo complesso per clienti senior o pigri.",
-    solutions: ["Catalogo WhatsApp Business","Carrello in chat","Pagamento link"],
-    economicBenefits: {"title":"Semplicità","benefits":["Conversione altissima","Dialogo diretto"],"savings":"Sviluppo app"}
+    solutions: ["Catalogo WhatsApp Business", "Carrello in chat", "Pagamento link"],
+    economicBenefits: { "title": "Semplicità", "benefits": ["Conversione altissima", "Dialogo diretto"], "savings": "Sviluppo app" }
   },
   {
     id: 'RTL8',
@@ -7827,8 +7827,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
     problem: "Non sapere quante persone entrano ma non comprano (tasso conversione store).",
-    solutions: ["Mappe di calore zone","Orari di punta","Staff planning"],
-    economicBenefits: {"title":"Ottimizzazione","benefits":["Staff giusto al momento giusto","Layout migliorato"],"savings":"Costi personale inefficace"}
+    solutions: ["Mappe di calore zone", "Orari di punta", "Staff planning"],
+    economicBenefits: { "title": "Ottimizzazione", "benefits": ["Staff giusto al momento giusto", "Layout migliorato"], "savings": "Costi personale inefficace" }
   },
   {
     id: 'RTL9',
@@ -7839,8 +7839,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80',
     problem: "I follower mettono like ma non trovano il prodotto sul sito.",
-    solutions: ["Feed shoppable","Sync catalogo FB/IG","Adesivi prodotto storie"],
-    economicBenefits: {"title":"Social Commerce","benefits":["Acquisto d'impulso","Traffico qualificato"],"savings":"Ads meno costose"}
+    solutions: ["Feed shoppable", "Sync catalogo FB/IG", "Adesivi prodotto storie"],
+    economicBenefits: { "title": "Social Commerce", "benefits": ["Acquisto d'impulso", "Traffico qualificato"], "savings": "Ads meno costose" }
   },
   {
     id: 'RTL10',
@@ -7851,8 +7851,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che scordano il negozio dopo l'acquisto.",
-    solutions: ["Segmentazione interessi","Buono compleanno","Recupero carrello"],
-    economicBenefits: {"title":"LTV","benefits":["Clienti ricorrenti","ROI email > 4000%"],"savings":"Pubblicità fredda"}
+    solutions: ["Segmentazione interessi", "Buono compleanno", "Recupero carrello"],
+    economicBenefits: { "title": "LTV", "benefits": ["Clienti ricorrenti", "ROI email > 4000%"], "savings": "Pubblicità fredda" }
   },
   {
     id: 'GRO2',
@@ -7863,8 +7863,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che vanno al discount per i prodotti base pesanti.",
-    solutions: ["Consegna al piano","Frequenza personalizzabile","Sconto quantità"],
-    economicBenefits: {"title":"Fidelizzazione","benefits":["Incasso prevedibile","Cliente blindato"],"savings":"Logistica ottimizzata"}
+    solutions: ["Consegna al piano", "Frequenza personalizzabile", "Sconto quantità"],
+    economicBenefits: { "title": "Fidelizzazione", "benefits": ["Incasso prevedibile", "Cliente blindato"], "savings": "Logistica ottimizzata" }
   },
   {
     id: 'GRO3',
@@ -7875,8 +7875,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80',
     problem: "Costi stampa volantini e impatto ambientale, spesso buttati.",
-    solutions: ["Volantino WhatsApp","Link diretto e-commerce","Video ricette"],
-    economicBenefits: {"title":"Risparmio","benefits":["-60% costi stampa","Misurabilità click"],"savings":"Migliaia euro carta"}
+    solutions: ["Volantino WhatsApp", "Link diretto e-commerce", "Video ricette"],
+    economicBenefits: { "title": "Risparmio", "benefits": ["-60% costi stampa", "Misurabilità click"], "savings": "Migliaia euro carta" }
   },
   {
     id: 'GRO4',
@@ -7887,8 +7887,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1580913428706-c311abaf32f4?auto=format&fit=crop&w=800&q=80',
     problem: "File alle casse che innervosiscono i clienti con pochi pezzi.",
-    solutions: ["Scan con smartphone","Pagamento in app","Uscita rapida"],
-    economicBenefits: {"title":"Velocità","benefits":["Fila zero","Meno cassieri necessari"],"savings":"Costo del lavoro"}
+    solutions: ["Scan con smartphone", "Pagamento in app", "Uscita rapida"],
+    economicBenefits: { "title": "Velocità", "benefits": ["Fila zero", "Meno cassieri necessari"], "savings": "Costo del lavoro" }
   },
   {
     id: 'JWL2',
@@ -7899,8 +7899,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'jewelry',
     image: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che perdono il certificato cartaceo e temono falsi.",
-    solutions: ["Registro blockchain","QR code univoco","Storia del gioiello"],
-    economicBenefits: {"title":"Valore","benefits":["Percezione lusso tech","Garanzia reale"],"savings":"Gestione archivi"}
+    solutions: ["Registro blockchain", "QR code univoco", "Storia del gioiello"],
+    economicBenefits: { "title": "Valore", "benefits": ["Percezione lusso tech", "Garanzia reale"], "savings": "Gestione archivi" }
   },
   {
     id: 'JWL3',
@@ -7911,8 +7911,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'jewelry',
     image: 'https://images.unsplash.com/photo-1605100804763-ebea2404028fa?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a visualizzare personalizzazioni (incisioni, pietre).",
-    solutions: ["Rendering real-time","Preventivo automatico","Condivisione progetto"],
-    economicBenefits: {"title":"Conversione","benefits":["Cliente co-creatore","Meno dubbi acquisto"],"savings":"Tempo spiegazioni"}
+    solutions: ["Rendering real-time", "Preventivo automatico", "Condivisione progetto"],
+    economicBenefits: { "title": "Conversione", "benefits": ["Cliente co-creatore", "Meno dubbi acquisto"], "savings": "Tempo spiegazioni" }
   },
   {
     id: 'CAR2',
@@ -7923,8 +7923,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'carsales',
     image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80',
     problem: "Gestione agenda test drive disorganizzata e sovrapposizioni.",
-    solutions: ["Calendario auto","Upload patente online","Waiver digitale"],
-    economicBenefits: {"title":"Lead","benefits":["Più prove effettuate","Dati profilati"],"savings":"Tempo segreteria"}
+    solutions: ["Calendario auto", "Upload patente online", "Waiver digitale"],
+    economicBenefits: { "title": "Lead", "benefits": ["Più prove effettuate", "Dati profilati"], "savings": "Tempo segreteria" }
   },
   {
     id: 'CAR3',
@@ -7935,8 +7935,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'carsales',
     image: 'https://images.unsplash.com/photo-1562141989-1832df759c5e?auto=format&fit=crop&w=800&q=80',
     problem: "Auto usate molto richieste vendute prima di avvisare tutti i lead.",
-    solutions: ["Matching automatico richieste","SMS/Email immediata","Prenotazione"],
-    economicBenefits: {"title":"Velocità Vendita","benefits":["Stock rotation alta","Clienti felici"],"savings":"Deprezzamento auto ferme"}
+    solutions: ["Matching automatico richieste", "SMS/Email immediata", "Prenotazione"],
+    economicBenefits: { "title": "Velocità Vendita", "benefits": ["Stock rotation alta", "Clienti felici"], "savings": "Deprezzamento auto ferme" }
   },
   {
     id: 'OPT2',
@@ -7947,8 +7947,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'optical',
     image: 'https://images.unsplash.com/photo-1570222094114-28a9d88a2ef0?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti indecisi che provano 100 paia sporcando le lenti.",
-    solutions: ["Realtà aumentata viso","Catalogo infinito","Condivisione per pareri"],
-    economicBenefits: {"title":"Igiene & Tempo","benefits":["Selezione pre-visita","Meno pulizia montature"],"savings":"Tempo ottico"}
+    solutions: ["Realtà aumentata viso", "Catalogo infinito", "Condivisione per pareri"],
+    economicBenefits: { "title": "Igiene & Tempo", "benefits": ["Selezione pre-visita", "Meno pulizia montature"], "savings": "Tempo ottico" }
   },
   {
     id: 'PHR2',
@@ -7959,8 +7959,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pharma',
     image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80',
     problem: "Code in farmacia solo per ordinare farmaci non disponibili.",
-    solutions: ["Foto NRE/Ricetta","Chat con farmacista","Notifica disponibilità"],
-    economicBenefits: {"title":"Efficienza","benefits":["Meno code al banco","Fidelizzazione paziente"],"savings":"Doppi passaggi clienti"}
+    solutions: ["Foto NRE/Ricetta", "Chat con farmacista", "Notifica disponibilità"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Meno code al banco", "Fidelizzazione paziente"], "savings": "Doppi passaggi clienti" }
   },
   {
     id: 'FLR2',
@@ -7971,8 +7971,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'florist',
     image: 'https://images.unsplash.com/photo-1562690868-60bbe7293e94?auto=format&fit=crop&w=800&q=80',
     problem: "Vendite occasionali imprevedibili, molto scarto di fiori freschi.",
-    solutions: ["Contratti digitali ricorrenti","Calendario consegne","Fatturazione auto"],
-    economicBenefits: {"title":"Ricorrenza","benefits":["Fatturato base sicuro","Zero spreco programmato"],"savings":"Fiori buttati"}
+    solutions: ["Contratti digitali ricorrenti", "Calendario consegne", "Fatturazione auto"],
+    economicBenefits: { "title": "Ricorrenza", "benefits": ["Fatturato base sicuro", "Zero spreco programmato"], "savings": "Fiori buttati" }
   },
 
   // --- BATCH 2 PART 2 GENERATED ---
@@ -7985,8 +7985,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti distanti che non visitano lo store fisico.",
-    solutions: ["Tour Matterport 3D","Tag prodotti cliccabili","Chat live"],
-    economicBenefits: {"title":"Visite","benefits":["+200% tempo sul sito","Vendite a distanza"],"savings":"Affitto location"}
+    solutions: ["Tour Matterport 3D", "Tag prodotti cliccabili", "Chat live"],
+    economicBenefits: { "title": "Visite", "benefits": ["+200% tempo sul sito", "Vendite a distanza"], "savings": "Affitto location" }
   },
   {
     id: 'RTL_ADD_2',
@@ -7997,8 +7997,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'retail',
     image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80',
     problem: "Alti tassi di reso per taglie sbagliate nell'e-commerce.",
-    solutions: ["Scan corpo AI","Matching tabelle taglie","Profilo cliente"],
-    economicBenefits: {"title":"Resi","benefits":["-40% resi","Fiducia acquisto"],"savings":"Logistica inversa"}
+    solutions: ["Scan corpo AI", "Matching tabelle taglie", "Profilo cliente"],
+    economicBenefits: { "title": "Resi", "benefits": ["-40% resi", "Fiducia acquisto"], "savings": "Logistica inversa" }
   },
   {
     id: 'GRO_ADD_1',
@@ -8009,8 +8009,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1506368249639-73a05d6f6488?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che non sanno cosa cucinare e comprano sempre le stesse cose.",
-    solutions: ["Blog ricette integrato","Tasto \"Aggiungi tutto\"","Suggerimenti abbinati"],
-    economicBenefits: {"title":"Basket","benefits":["+30% prodotti nel carrello","Vendita salse/spezie"],"savings":"Tempo ricerca"}
+    solutions: ["Blog ricette integrato", "Tasto \"Aggiungi tutto\"", "Suggerimenti abbinati"],
+    economicBenefits: { "title": "Basket", "benefits": ["+30% prodotti nel carrello", "Vendita salse/spezie"], "savings": "Tempo ricerca" }
   },
   {
     id: 'GRO_ADD_2',
@@ -8021,8 +8021,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
     problem: "Prodotti freschi buttati via perché scaduti a scaffale.",
-    solutions: ["Etichetta elettronica","Push notifica app vicini","Sconto dinamico"],
-    economicBenefits: {"title":"Spreco Zero","benefits":["Recupero costo merce","Immagine green"],"savings":"Smaltimento rifiuti"}
+    solutions: ["Etichetta elettronica", "Push notifica app vicini", "Sconto dinamico"],
+    economicBenefits: { "title": "Spreco Zero", "benefits": ["Recupero costo merce", "Immagine green"], "savings": "Smaltimento rifiuti" }
   },
   {
     id: 'GRO_ADD_3',
@@ -8033,8 +8033,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'grocery',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80',
     problem: "Code lunghe nell'ora di punta.",
-    solutions: ["Scan & Go","Pagamento biometrico","Uscita veloce"],
-    economicBenefits: {"title":"Throughput","benefits":["Più clienti/ora","Meno casse fisiche"],"savings":"Spazio negozio"}
+    solutions: ["Scan & Go", "Pagamento biometrico", "Uscita veloce"],
+    economicBenefits: { "title": "Throughput", "benefits": ["Più clienti/ora", "Meno casse fisiche"], "savings": "Spazio negozio" }
   },
   {
     id: 'JWL_ADD_1',
@@ -8045,8 +8045,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'jewelry',
     image: 'https://images.unsplash.com/photo-1589127882255-09d73d6d63df?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti non sanno il valore attuale dei loro gioielli per assicurazione.",
-    solutions: ["Valutazione remota","Archivio foto HD","Certificato valore"],
-    economicBenefits: {"title":"Servizio","benefits":["Fidelizzazione a vita","Upgrade assicurativi"],"savings":"Perizie fisiche"}
+    solutions: ["Valutazione remota", "Archivio foto HD", "Certificato valore"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Fidelizzazione a vita", "Upgrade assicurativi"], "savings": "Perizie fisiche" }
   },
   {
     id: 'JWL_ADD_2',
@@ -8057,8 +8057,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'jewelry',
     image: 'https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=80',
     problem: "Mariti/partner che dimenticano date e comprano all'ultimo altrove.",
-    solutions: ["CRM date importanti","Suggerimento regalo automatico","Consegna a sorpresa"],
-    economicBenefits: {"title":"Vendite","benefits":["Acquisti ricorrenti sicuri","Scontrino alto"],"savings":"Marketing generico"}
+    solutions: ["CRM date importanti", "Suggerimento regalo automatico", "Consegna a sorpresa"],
+    economicBenefits: { "title": "Vendite", "benefits": ["Acquisti ricorrenti sicuri", "Scontrino alto"], "savings": "Marketing generico" }
   },
   {
     id: 'CAR_ADD_1',
@@ -8069,8 +8069,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'carsales',
     image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che rinunciano vedendo la rata finale dopo ore di trattativa.",
-    solutions: ["Simulatore rata reale","Pre-approvazione bancaria","Upload busta paga"],
-    economicBenefits: {"title":"Chiusura","benefits":["Tasso approvazione +20%","Meno pratiche perse"],"savings":"Tempo backoffice"}
+    solutions: ["Simulatore rata reale", "Pre-approvazione bancaria", "Upload busta paga"],
+    economicBenefits: { "title": "Chiusura", "benefits": ["Tasso approvazione +20%", "Meno pratiche perse"], "savings": "Tempo backoffice" }
   },
   {
     id: 'CAR_ADD_2',
@@ -8081,8 +8081,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'carsales',
     image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti non vogliono perdere mezza giornata per il ritiro.",
-    solutions: ["Rider specializzato","Spiegazione a casa","Firma tablet"],
-    economicBenefits: {"title":"Esperienza","benefits":["Recensioni entusiastiche","Video social virali"],"savings":"Spazio salone"}
+    solutions: ["Rider specializzato", "Spiegazione a casa", "Firma tablet"],
+    economicBenefits: { "title": "Esperienza", "benefits": ["Recensioni entusiastiche", "Video social virali"], "savings": "Spazio salone" }
   },
   {
     id: 'OPT_ADD_1',
@@ -8093,8 +8093,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'optical',
     image: 'https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che comprano le lenti online per pigrizia.",
-    solutions: ["Abbonamento ricorrente","Controllo vista annuale incluso","Cambio diottrie"],
-    economicBenefits: {"title":"Ricavi","benefits":["Fatturato automatico","Zero competizione online"],"savings":"Marketing riacquisto"}
+    solutions: ["Abbonamento ricorrente", "Controllo vista annuale incluso", "Cambio diottrie"],
+    economicBenefits: { "title": "Ricavi", "benefits": ["Fatturato automatico", "Zero competizione online"], "savings": "Marketing riacquisto" }
   },
   {
     id: 'OPT_ADD_2',
@@ -8105,8 +8105,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'optical',
     image: 'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80',
     problem: "Difficile spiegare il valore di lenti costose a parole.",
-    solutions: ["Simulatore visione","Test stress visivo","Report personalizzato"],
-    economicBenefits: {"title":"Upsell","benefits":["+50% vendita antiriflesso","Scontrino medio alto"],"savings":"Tempo spiegazione"}
+    solutions: ["Simulatore visione", "Test stress visivo", "Report personalizzato"],
+    economicBenefits: { "title": "Upsell", "benefits": ["+50% vendita antiriflesso", "Scontrino medio alto"], "savings": "Tempo spiegazione" }
   },
   {
     id: 'PHR_ADD_1',
@@ -8117,8 +8117,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pharma',
     image: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=800&q=80',
     problem: "Pazienti anziani che dimenticano le terapie o finiscono le scatole.",
-    solutions: ["Notifica oraria","Riordino automatico","Collegamento caregiver"],
-    economicBenefits: {"title":"Aderenza","benefits":["Vendita puntuale farmaci","Fiducia famiglie"],"savings":"Salute pazienti"}
+    solutions: ["Notifica oraria", "Riordino automatico", "Collegamento caregiver"],
+    economicBenefits: { "title": "Aderenza", "benefits": ["Vendita puntuale farmaci", "Fiducia famiglie"], "savings": "Salute pazienti" }
   },
   {
     id: 'PHR_ADD_2',
@@ -8129,8 +8129,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pharma',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
     problem: "Liste d'attesa lunghe per esami base in ospedale.",
-    solutions: ["Cabina telemedicina","Referto specialista 15min","Pagamento ticket"],
-    economicBenefits: {"title":"Servizi","benefits":["Margine servizi alto","Traffico in negozio"],"savings":"Tempo pazienti"}
+    solutions: ["Cabina telemedicina", "Referto specialista 15min", "Pagamento ticket"],
+    economicBenefits: { "title": "Servizi", "benefits": ["Margine servizi alto", "Traffico in negozio"], "savings": "Tempo pazienti" }
   },
   {
     id: 'FLR_ADD_1',
@@ -8141,20 +8141,20 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'florist',
     image: 'https://images.unsplash.com/photo-1519225421980-715cb0202128?auto=format&fit=crop&w=800&q=80',
     problem: "Sposi indecisi che chiedono 10 preventivi diversi.",
-    solutions: ["Catalogo stagionale","Moodboard builder","Preventivo range"],
-    economicBenefits: {"title":"Matrimoni","benefits":["Clienti più decisi","Meno perditempo"],"savings":"Ore consulenza gratis"}
+    solutions: ["Catalogo stagionale", "Moodboard builder", "Preventivo range"],
+    economicBenefits: { "title": "Matrimoni", "benefits": ["Clienti più decisi", "Meno perditempo"], "savings": "Ore consulenza gratis" }
   },
   {
     id: 'FLR_ADD_2',
-    name: "QR Code "Dillo con un Fiore"",
+    name: "QR Code 'Dillo con un Fiore'",
     shortDescription: "Video messaggio allegato al mazzo di fiori",
     icon: '📹',
     category: 'Digitalizzazione',
     activityType: 'florist',
     image: 'https://images.unsplash.com/photo-1563241527-3004b7be025b?auto=format&fit=crop&w=800&q=80',
     problem: "Il bigliettino cartaceo è limitato e si perde.",
-    solutions: ["Registrazione video dedica","Stampa QR su biglietto","Emozione unica"],
-    economicBenefits: {"title":"Wow Effect","benefits":["Prodotto premium","Passaparola social"],"savings":"Costo bigliettini"}
+    solutions: ["Registrazione video dedica", "Stampa QR su biglietto", "Emozione unica"],
+    economicBenefits: { "title": "Wow Effect", "benefits": ["Prodotto premium", "Passaparola social"], "savings": "Costo bigliettini" }
   },
 
   // --- BATCH 3 GENERATED ---
@@ -8167,8 +8167,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
     problem: "Pazienti che annullano per difficoltà a raggiungere lo studio.",
-    solutions: ["Video encrypted","Pagamento anticipato","Ricetta dematerializzata"],
-    economicBenefits: {"title":"Efficienza","benefits":["Zero no-show","Pazienti fuori regione"],"savings":"Spese studio"}
+    solutions: ["Video encrypted", "Pagamento anticipato", "Ricetta dematerializzata"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Zero no-show", "Pazienti fuori regione"], "savings": "Spese studio" }
   },
   {
     id: 'MED3',
@@ -8179,8 +8179,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80',
     problem: "Segreteria intasata e pazienti che non riescono a prenotare.",
-    solutions: ["Slot liberi visibili","SMS promemoria","Lista d'attesa auto"],
-    economicBenefits: {"title":"Segreteria","benefits":["-70% chiamate","Agenda piena"],"savings":"Tempo segretaria"}
+    solutions: ["Slot liberi visibili", "SMS promemoria", "Lista d'attesa auto"],
+    economicBenefits: { "title": "Segreteria", "benefits": ["-70% chiamate", "Agenda piena"], "savings": "Tempo segretaria" }
   },
   {
     id: 'MED4',
@@ -8191,8 +8191,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=800&q=80',
     problem: "Pazienti che perdono referti cartacei e chiedono copie.",
-    solutions: ["Portale paziente","Storico esami","Conformità GDPR"],
-    economicBenefits: {"title":"Servizio","benefits":["Paziente fidelizzato","Privacy compliant"],"savings":"Carta e stampa"}
+    solutions: ["Portale paziente", "Storico esami", "Conformità GDPR"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Paziente fidelizzato", "Privacy compliant"], "savings": "Carta e stampa" }
   },
   {
     id: 'MED5',
@@ -8203,8 +8203,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80',
     problem: "Una recensione negativa non gestita allontana nuovi pazienti.",
-    solutions: ["Richiesta recensione post-visita","Risposte professionali","Analisi feedback"],
-    economicBenefits: {"title":"Attrazione","benefits":["+40% nuovi pazienti","Immagine eccellente"],"savings":"Pubblicità"}
+    solutions: ["Richiesta recensione post-visita", "Risposte professionali", "Analisi feedback"],
+    economicBenefits: { "title": "Attrazione", "benefits": ["+40% nuovi pazienti", "Immagine eccellente"], "savings": "Pubblicità" }
   },
   {
     id: 'LGL2',
@@ -8215,8 +8215,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'legal',
     image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80',
     problem: "Mandare atti sensibili via email è rischioso e poco professionale.",
-    solutions: ["Area riservata criptata","Firma digitale remota","Notifica lettura"],
-    economicBenefits: {"title":"Sicurezza","benefits":["Zero data breach","Cliente rassicurato"],"savings":"Raccomandate"}
+    solutions: ["Area riservata criptata", "Firma digitale remota", "Notifica lettura"],
+    economicBenefits: { "title": "Sicurezza", "benefits": ["Zero data breach", "Cliente rassicurato"], "savings": "Raccomandate" }
   },
   {
     id: 'LGL3',
@@ -8227,8 +8227,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'legal',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80',
     problem: "Ore perse a fare copia-incolla per contratti standard.",
-    solutions: ["Form online cliente","Autocompilazione","Revisione rapida"],
-    economicBenefits: {"title":"Produttività","benefits":["-80% tempo redazione","Zero errori refusi"],"savings":"Tempo avvocato"}
+    solutions: ["Form online cliente", "Autocompilazione", "Revisione rapida"],
+    economicBenefits: { "title": "Produttività", "benefits": ["-80% tempo redazione", "Zero errori refusi"], "savings": "Tempo avvocato" }
   },
   {
     id: 'FIN2',
@@ -8238,9 +8238,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'E-commerce',
     activityType: 'finance',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    problem: "Clienti ansiosi che chiamano per sapere "come va la borsa".",
-    solutions: ["App mobile","Report settimanale","Chat consulente"],
-    economicBenefits: {"title":"Fiducia","benefits":["Cliente informato","Meno chiamate ansia"],"savings":"Gestione emotiva"}
+    problem: "Clienti ansiosi che chiamano per sapere 'come va la borsa'.",
+    solutions: ["App mobile", "Report settimanale", "Chat consulente"],
+    economicBenefits: { "title": "Fiducia", "benefits": ["Cliente informato", "Meno chiamate ansia"], "savings": "Gestione emotiva" }
   },
   {
     id: 'FIN3',
@@ -8251,8 +8251,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'finance',
     image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
     problem: "Burocrazia cartacea che rallenta l'acquisizione nuovi clienti.",
-    solutions: ["KYC digitale","Firma remota","Archiviazione auto"],
-    economicBenefits: {"title":"Acquisizione","benefits":["Tasso chiusura +30%","Processo in minuti"],"savings":"Carta e corrieri"}
+    solutions: ["KYC digitale", "Firma remota", "Archiviazione auto"],
+    economicBenefits: { "title": "Acquisizione", "benefits": ["Tasso chiusura +30%", "Processo in minuti"], "savings": "Carta e corrieri" }
   },
   {
     id: 'RST_AG2',
@@ -8263,8 +8263,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'realestate',
     image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
     problem: "Perdita di tempo in visite a vuoto con clienti non interessati.",
-    solutions: ["Fotocamera 360","Visita guidata remota","Planimetria interattiva"],
-    economicBenefits: {"title":"Qualificazione","benefits":["Solo visite interessate","Vendita più veloce"],"savings":"Benzina e tempo"}
+    solutions: ["Fotocamera 360", "Visita guidata remota", "Planimetria interattiva"],
+    economicBenefits: { "title": "Qualificazione", "benefits": ["Solo visite interessate", "Vendita più veloce"], "savings": "Benzina e tempo" }
   },
   {
     id: 'RST_AG3',
@@ -8275,8 +8275,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'realestate',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a convincere il venditore del prezzo di mercato corretto.",
-    solutions: ["Report big data","Trend zona","Prezzo al mq reale"],
-    economicBenefits: {"title":"Acquisizione","benefits":["Mandato a prezzo giusto","Vendita rapida"],"savings":"Immobili invenduti"}
+    solutions: ["Report big data", "Trend zona", "Prezzo al mq reale"],
+    economicBenefits: { "title": "Acquisizione", "benefits": ["Mandato a prezzo giusto", "Vendita rapida"], "savings": "Immobili invenduti" }
   },
   {
     id: 'RST_AG4',
@@ -8287,8 +8287,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'realestate',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&w=800&q=80',
     problem: "Gestione manuale affitti, scadenze e solleciti pagamenti.",
-    solutions: ["Incasso automatico","Ticket guasti inquilino","Rinnovi auto"],
-    economicBenefits: {"title":"Management","benefits":["Fee gestione ricorrenti","Proprietari felici"],"savings":"Tempo amministrazione"}
+    solutions: ["Incasso automatico", "Ticket guasti inquilino", "Rinnovi auto"],
+    economicBenefits: { "title": "Management", "benefits": ["Fee gestione ricorrenti", "Proprietari felici"], "savings": "Tempo amministrazione" }
   },
   {
     id: 'CNS2',
@@ -8299,8 +8299,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'coworking',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
     problem: "Conflitti su uso sale riunioni e gestione accessi manuale.",
-    solutions: ["Calendario condiviso","Crediti prepagati","Sblocco porta app"],
-    economicBenefits: {"title":"Occupazione","benefits":["Sale sempre vendute","Upsell servizi"],"savings":"Receptionist"}
+    solutions: ["Calendario condiviso", "Crediti prepagati", "Sblocco porta app"],
+    economicBenefits: { "title": "Occupazione", "benefits": ["Sale sempre vendute", "Upsell servizi"], "savings": "Receptionist" }
   },
   {
     id: 'CNS3',
@@ -8311,8 +8311,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'coworking',
     image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800&q=80',
     problem: "Turnover alto perché i membri non legano tra loro.",
-    solutions: ["Bacheca opportunità","Eventi aperti","Chat interna"],
-    economicBenefits: {"title":"Retention","benefits":["Community forte","Meno disdette"],"savings":"Acquisizione nuovi"}
+    solutions: ["Bacheca opportunità", "Eventi aperti", "Chat interna"],
+    economicBenefits: { "title": "Retention", "benefits": ["Community forte", "Meno disdette"], "savings": "Acquisizione nuovi" }
   },
   {
     id: 'CNS4',
@@ -8323,8 +8323,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'consulting',
     image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=800&q=80',
     problem: "Vendere solo tempo x denaro limita il fatturato del consulente.",
-    solutions: ["Area corsi registrati","Pagamento Stripe","Rilascio attestati"],
-    economicBenefits: {"title":"Scalabilità","benefits":["Ricavi passivi","Authority settore"],"savings":"Tempo ripetizione"}
+    solutions: ["Area corsi registrati", "Pagamento Stripe", "Rilascio attestati"],
+    economicBenefits: { "title": "Scalabilità", "benefits": ["Ricavi passivi", "Authority settore"], "savings": "Tempo ripetizione" }
   },
 
   // --- BATCH 3 PART 2 GENERATED ---
@@ -8337,8 +8337,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1551817958-c96353389818?auto=format&fit=crop&w=800&q=80',
     problem: "Pazienti cronici che richiedono controlli frequenti.",
-    solutions: ["Sfigmomanometro connesso","Saturimetro Bluetooth","Alert valori anomali"],
-    economicBenefits: {"title":"Prevenzione","benefits":["Intervento tempestivo","Meno ricoveri"],"savings":"Costi SSN/Privato"}
+    solutions: ["Sfigmomanometro connesso", "Saturimetro Bluetooth", "Alert valori anomali"],
+    economicBenefits: { "title": "Prevenzione", "benefits": ["Intervento tempestivo", "Meno ricoveri"], "savings": "Costi SSN/Privato" }
   },
   {
     id: 'MED_ADD_2',
@@ -8349,8 +8349,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'medical',
     image: 'https://images.unsplash.com/photo-1584036561566-b9370b809a7b?auto=format&fit=crop&w=800&q=80',
     problem: "Chirurghi che devono distogliere lo sguardo per vedere monitor.",
-    solutions: ["Proiezione dati su paziente","Visione 3D organi","Precisione millimetrica"],
-    economicBenefits: {"title":"Qualità","benefits":["Meno errori","Operazioni più rapide"],"savings":"Rischi assicurativi"}
+    solutions: ["Proiezione dati su paziente", "Visione 3D organi", "Precisione millimetrica"],
+    economicBenefits: { "title": "Qualità", "benefits": ["Meno errori", "Operazioni più rapide"], "savings": "Rischi assicurativi" }
   },
   {
     id: 'INS2',
@@ -8361,8 +8361,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'insurance',
     image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80',
     problem: "Tempi biblici per aspettare il perito dopo un incidente.",
-    solutions: ["Visione artificiale danni","Offerta liquidazione immediata","Anti-frode"],
-    economicBenefits: {"title":"Velocità","benefits":["Rimborso in 24h","Cliente soddisfatto"],"savings":"Costi periti"}
+    solutions: ["Visione artificiale danni", "Offerta liquidazione immediata", "Anti-frode"],
+    economicBenefits: { "title": "Velocità", "benefits": ["Rimborso in 24h", "Cliente soddisfatto"], "savings": "Costi periti" }
   },
   {
     id: 'INS3',
@@ -8373,8 +8373,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'insurance',
     image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=800&q=80',
     problem: "Polizze annuali costose per rischi occasionali.",
-    solutions: ["Attivazione GPS","Pay-per-use","Copertura istantanea"],
-    economicBenefits: {"title":"Nuovi Clienti","benefits":["Target giovani","Volumi alti micropremio"],"savings":"CAC basso"}
+    solutions: ["Attivazione GPS", "Pay-per-use", "Copertura istantanea"],
+    economicBenefits: { "title": "Nuovi Clienti", "benefits": ["Target giovani", "Volumi alti micropremio"], "savings": "CAC basso" }
   },
   {
     id: 'INS4',
@@ -8385,8 +8385,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'insurance',
     image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80',
     problem: "Tariffe alte anche per guidatori prudenti.",
-    solutions: ["Monitoraggio stile guida","Crash detection","Ricostruzione incidenti"],
-    economicBenefits: {"title":"Rischio","benefits":["Sinistrosità ridotta","Selezione avversa evitata"],"savings":"Risparmio indennizzi"}
+    solutions: ["Monitoraggio stile guida", "Crash detection", "Ricostruzione incidenti"],
+    economicBenefits: { "title": "Rischio", "benefits": ["Sinistrosità ridotta", "Selezione avversa evitata"], "savings": "Risparmio indennizzi" }
   },
   {
     id: 'CNS_ADD_1',
@@ -8396,9 +8396,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Digitalizzazione',
     activityType: 'consulting',
     image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80',
-    problem: "Clienti che chiamano ogni giorno per chiedere "a che punto siamo?".",
-    solutions: ["Gantt condiviso","Task status","Upload documenti"],
-    economicBenefits: {"title":"Trasparenza","benefits":["Fiducia totale","Zero tempo report"],"savings":"Email inutili"}
+    problem: "Clienti che chiamano ogni giorno per chiedere 'a che punto siamo?'.",
+    solutions: ["Gantt condiviso", "Task status", "Upload documenti"],
+    economicBenefits: { "title": "Trasparenza", "benefits": ["Fiducia totale", "Zero tempo report"], "savings": "Email inutili" }
   },
   {
     id: 'CNS_ADD_2',
@@ -8408,9 +8408,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Marketing Digitale',
     activityType: 'consulting',
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80',
-    problem: "Passaparola incostante che crea "montagne russe" di fatturato.",
-    solutions: ["Landing page","Lead magnet ebook","Email nurture"],
-    economicBenefits: {"title":"Crescita","benefits":["Flusso costante lead","Prevedibilità ricavi"],"savings":"Tempo networking"}
+    problem: "Passaparola incostante che crea 'montagne russe' di fatturato.",
+    solutions: ["Landing page", "Lead magnet ebook", "Email nurture"],
+    economicBenefits: { "title": "Crescita", "benefits": ["Flusso costante lead", "Prevedibilità ricavi"], "savings": "Tempo networking" }
   },
   {
     id: 'RST_ADD_1',
@@ -8421,8 +8421,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'realestate',
     image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80',
     problem: "Case vuote o arredate male che sembrano piccole e tristi.",
-    solutions: ["Rendering fotorealistico","Rimozione mobili vecchi","Stili diversi"],
-    economicBenefits: {"title":"Click-through","benefits":["+100% click su annuncio","Effetto WOW"],"savings":"Costo home staging fisico"}
+    solutions: ["Rendering fotorealistico", "Rimozione mobili vecchi", "Stili diversi"],
+    economicBenefits: { "title": "Click-through", "benefits": ["+100% click su annuncio", "Effetto WOW"], "savings": "Costo home staging fisico" }
   },
   {
     id: 'RST_ADD_2',
@@ -8433,8 +8433,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'realestate',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80',
     problem: "Vendite lente e trattative al ribasso.",
-    solutions: ["Gara competitiva","Trasparenza offerte","Tempo limitato"],
-    economicBenefits: {"title":"Prezzo","benefits":["Max prezzo mercato","Vendita in 30gg"],"savings":"Tempo trattativa"}
+    solutions: ["Gara competitiva", "Trasparenza offerte", "Tempo limitato"],
+    economicBenefits: { "title": "Prezzo", "benefits": ["Max prezzo mercato", "Vendita in 30gg"], "savings": "Tempo trattativa" }
   },
 
   // --- BATCH 4 GENERATED ---
@@ -8447,8 +8447,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che chiedono preventivi per curiosità facendo perdere tempo.",
-    solutions: ["Scanner 3D stanza","Prezzario regionale auto","Range costo immediato"],
-    economicBenefits: {"title":"Qualifica","benefits":["Solo clienti budget OK","Sopralluoghi mirati"],"savings":"Tempo tecnico"}
+    solutions: ["Scanner 3D stanza", "Prezzario regionale auto", "Range costo immediato"],
+    economicBenefits: { "title": "Qualifica", "benefits": ["Solo clienti budget OK", "Sopralluoghi mirati"], "savings": "Tempo tecnico" }
   },
   {
     id: 'CNS3',
@@ -8459,8 +8459,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
     problem: "Proprietari ansiosi che visitano il cantiere intralciando i lavori.",
-    solutions: ["Diario fotografo cloud","Chat dedicata capocantiere","Timeline visiva"],
-    economicBenefits: {"title":"Efficienza","benefits":["Zero interruzioni","Pagamenti SAL puntuali"],"savings":"Ritardi lavori"}
+    solutions: ["Diario fotografo cloud", "Chat dedicata capocantiere", "Timeline visiva"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Zero interruzioni", "Pagamenti SAL puntuali"], "savings": "Ritardi lavori" }
   },
   {
     id: 'CNS4',
@@ -8471,8 +8471,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80',
     problem: "Fermi cantiere perché manca materiale o il furgone è rotto.",
-    solutions: ["App ordini fornitori","Consegna Just-in-Time","Fattura unica"],
-    economicBenefits: {"title":"Produttività","benefits":["Operai sempre attivi","Meno viaggi magazzino"],"savings":"Costi logistica"}
+    solutions: ["App ordini fornitori", "Consegna Just-in-Time", "Fattura unica"],
+    economicBenefits: { "title": "Produttività", "benefits": ["Operai sempre attivi", "Meno viaggi magazzino"], "savings": "Costi logistica" }
   },
   {
     id: 'CNS5',
@@ -8483,8 +8483,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
     problem: "Incidenti sul lavoro che bloccano il cantiere e costano caro.",
-    solutions: ["Rilevamento DPI mancanti","SOS uomo a terra","Accesso biometrico"],
-    economicBenefits: {"title":"Rischi","benefits":["Sconto INAIL","Zero stop lavori"],"savings":"Costi legali"}
+    solutions: ["Rilevamento DPI mancanti", "SOS uomo a terra", "Accesso biometrico"],
+    economicBenefits: { "title": "Rischi", "benefits": ["Sconto INAIL", "Zero stop lavori"], "savings": "Costi legali" }
   },
   {
     id: 'GRD2',
@@ -8495,8 +8495,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gardening',
     image: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=800&q=80',
     problem: "Cliente non riesce a immaginare il risultato finale.",
-    solutions: ["Rendering piante cresciute","Simulazione stagioni","Preventivo piante"],
-    economicBenefits: {"title":"Vendita","benefits":["Ticket medio +40%","Chiusura contratto veloce"],"savings":"Clienti indecisi"}
+    solutions: ["Rendering piante cresciute", "Simulazione stagioni", "Preventivo piante"],
+    economicBenefits: { "title": "Vendita", "benefits": ["Ticket medio +40%", "Chiusura contratto veloce"], "savings": "Clienti indecisi" }
   },
   {
     id: 'GRD3',
@@ -8507,8 +8507,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gardening',
     image: 'https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?auto=format&fit=crop&w=800&q=80',
     problem: "Piante che muoiono per troppa o poca acqua.",
-    solutions: ["Sensori umidità suolo","Meteo predittivo","App cliente"],
-    economicBenefits: {"title":"Manutenzione","benefits":["Piante sane","Risparmio idrico 30%"],"savings":"Sostituzione piante"}
+    solutions: ["Sensori umidità suolo", "Meteo predittivo", "App cliente"],
+    economicBenefits: { "title": "Manutenzione", "benefits": ["Piante sane", "Risparmio idrico 30%"], "savings": "Sostituzione piante" }
   },
   {
     id: 'GRD4',
@@ -8519,8 +8519,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gardening',
     image: 'https://images.unsplash.com/photo-1592419044706-39796d40f98c?auto=format&fit=crop&w=800&q=80',
     problem: "Lavoro stagionale con picchi e mesi morti.",
-    solutions: ["Canone mensile fisso","Calendario auto","Addebito SDD"],
-    economicBenefits: {"title":"Cashflow","benefits":["Ricavi stabili invernali","Fidelizzazione"],"savings":"Gestione incassi"}
+    solutions: ["Canone mensile fisso", "Calendario auto", "Addebito SDD"],
+    economicBenefits: { "title": "Cashflow", "benefits": ["Ricavi stabili invernali", "Fidelizzazione"], "savings": "Gestione incassi" }
   },
   {
     id: 'CLN2',
@@ -8531,8 +8531,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'cleaning',
     image: 'https://images.unsplash.com/photo-1581578731117-10452966116a?auto=format&fit=crop&w=800&q=80',
     problem: "Difficoltà a trovare clienti nuovi per riempire buchi orari.",
-    solutions: ["Calendario disponibilità","Pagamento online","Feedback stelline"],
-    economicBenefits: {"title":"Saturazione","benefits":["Agenda piena","Pagamenti sicuri"],"savings":"Tempo preventivi"}
+    solutions: ["Calendario disponibilità", "Pagamento online", "Feedback stelline"],
+    economicBenefits: { "title": "Saturazione", "benefits": ["Agenda piena", "Pagamenti sicuri"], "savings": "Tempo preventivi" }
   },
   {
     id: 'CLN3',
@@ -8543,8 +8543,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'cleaning',
     image: 'https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=800&q=80',
     problem: "Contestazioni dei clienti sulla qualità del pulito.",
-    solutions: ["App dipendenti","Report fotografico","Firma cliente"],
-    economicBenefits: {"title":"Qualità","benefits":["Zero contestazioni","Bonus produttività staff"],"savings":"Rimborsi"}
+    solutions: ["App dipendenti", "Report fotografico", "Firma cliente"],
+    economicBenefits: { "title": "Qualità", "benefits": ["Zero contestazioni", "Bonus produttività staff"], "savings": "Rimborsi" }
   },
   {
     id: 'CLN4',
@@ -8555,8 +8555,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'cleaning',
     image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a782?auto=format&fit=crop&w=800&q=80',
     problem: "Costi personale altissimi per pulire grandi superfici (capannoni).",
-    solutions: ["Robot H24","Mappatura laser","Report copertura"],
-    economicBenefits: {"title":"Costi","benefits":["-50% costo mq","Pulizia notturna"],"savings":"Personale"}
+    solutions: ["Robot H24", "Mappatura laser", "Report copertura"],
+    economicBenefits: { "title": "Costi", "benefits": ["-50% costo mq", "Pulizia notturna"], "savings": "Personale" }
   },
   {
     id: 'ATO2',
@@ -8567,8 +8567,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'autocare',
     image: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti diffidenti che pensano il meccanico inventi lavori.",
-    solutions: ["Video ispezione","Approvazione click singolo","Trasparenza totale"],
-    economicBenefits: {"title":"Up-selling","benefits":["+30% lavori approvati","Fiducia cieca"],"savings":"Tempo spiegazioni"}
+    solutions: ["Video ispezione", "Approvazione click singolo", "Trasparenza totale"],
+    economicBenefits: { "title": "Up-selling", "benefits": ["+30% lavori approvati", "Fiducia cieca"], "savings": "Tempo spiegazioni" }
   },
   {
     id: 'ATO3',
@@ -8578,9 +8578,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Automazione',
     activityType: 'autocare',
     image: 'https://images.unsplash.com/photo-1568605117463-23752c1bd669?auto=format&fit=crop&w=800&q=80',
-    problem: "Segreteria intasata da "è pronta la macchina?".",
-    solutions: ["Integrazione gestionale","Messaggi step-by-step","Foto lavori"],
-    economicBenefits: {"title":"Servizio","benefits":["Cliente tranquillo","Meno telefonate"],"savings":"Tempo ufficio"}
+    problem: "Segreteria intasata da 'è pronta la macchina?'.",
+    solutions: ["Integrazione gestionale", "Messaggi step-by-step", "Foto lavori"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Cliente tranquillo", "Meno telefonate"], "savings": "Tempo ufficio" }
   },
   {
     id: 'ATO4',
@@ -8591,8 +8591,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'autocare',
     image: 'https://images.unsplash.com/photo-1530046339160-711533e94b43?auto=format&fit=crop&w=800&q=80',
     problem: "Ponti sollevatori vuoti in certi orari e pieni in altri.",
-    solutions: ["Agenda officina","Prezzi dinamici orari","Database scadenze revisione"],
-    economicBenefits: {"title":"Saturazione","benefits":["Officina sempre piena","Richiamo clienti attivi"],"savings":"Ore perse"}
+    solutions: ["Agenda officina", "Prezzi dinamici orari", "Database scadenze revisione"],
+    economicBenefits: { "title": "Saturazione", "benefits": ["Officina sempre piena", "Richiamo clienti attivi"], "savings": "Ore perse" }
   },
   {
     id: 'PHT2',
@@ -8603,8 +8603,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'photo',
     image: 'https://images.unsplash.com/photo-1520854221250-8c2787ec3f3e?auto=format&fit=crop&w=800&q=80',
     problem: "Mesi per avere la selezione foto dagli sposi via email/chiavetta.",
-    solutions: ["Interfaccia cuoricini/scarto","Commenti puntuali","Vendita stampe extra"],
-    economicBenefits: {"title":"Upsell","benefits":["Vendita album extra","Chiusura lavoro rapida"],"savings":"Tempo post-vendita"}
+    solutions: ["Interfaccia cuoricini/scarto", "Commenti puntuali", "Vendita stampe extra"],
+    economicBenefits: { "title": "Upsell", "benefits": ["Vendita album extra", "Chiusura lavoro rapida"], "savings": "Tempo post-vendita" }
   },
   {
     id: 'PHT3',
@@ -8615,8 +8615,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'photo',
     image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
     problem: "Studio vuoto nei giorni feriali.",
-    solutions: ["Offerte lampo","Mini-sessioni a tema","Acconto PayPal"],
-    economicBenefits: {"title":"Occupazione","benefits":["Studio a regime","Incasso anticipato"],"savings":"Marketing"}
+    solutions: ["Offerte lampo", "Mini-sessioni a tema", "Acconto PayPal"],
+    economicBenefits: { "title": "Occupazione", "benefits": ["Studio a regime", "Incasso anticipato"], "savings": "Marketing" }
   },
   {
     id: 'TCH2',
@@ -8626,9 +8626,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'E-commerce',
     activityType: 'tech',
     image: 'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=800&q=80',
-    problem: "Clienti che chiamano per "una domanda veloce" gratis.",
-    solutions: ["Software controllo remoto","Pacchetti ore","Timer fatturazione"],
-    economicBenefits: {"title":"Ricavi","benefits":["Ogni minuto fatturato","Niente più favori"],"savings":"Tempo perso"}
+    problem: "Clienti che chiamano per 'una domanda veloce' gratis.",
+    solutions: ["Software controllo remoto", "Pacchetti ore", "Timer fatturazione"],
+    economicBenefits: { "title": "Ricavi", "benefits": ["Ogni minuto fatturato", "Niente più favori"], "savings": "Tempo perso" }
   },
   {
     id: 'TCH3',
@@ -8639,8 +8639,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tech',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80',
     problem: "Difficile vendere firewall costosi a piccoli clienti.",
-    solutions: ["Scan rete automatico","Report \"paura\" (rossi)","Soluzione click"],
-    economicBenefits: {"title":"Vendita","benefits":["Tasso chiusura alto","Ricavi ricorrenti sicurezza"],"savings":"Tempo analisi"}
+    solutions: ["Scan rete automatico", "Report \"paura\" (rossi)", "Soluzione click"],
+    economicBenefits: { "title": "Vendita", "benefits": ["Tasso chiusura alto", "Ricavi ricorrenti sicurezza"], "savings": "Tempo analisi" }
   },
   {
     id: 'LND2',
@@ -8651,8 +8651,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'laundry',
     image: 'https://images.unsplash.com/photo-1517677208171-0bc6799a4c6d?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti pigri o senza tempo che accumulano vestiti.",
-    solutions: ["Booking ritiro","Tracking capi","Pagamento in app"],
-    economicBenefits: {"title":"Volumi","benefits":["+40% capi lavorati","Cliente alto spendente"],"savings":"Affitto locale centro"}
+    solutions: ["Booking ritiro", "Tracking capi", "Pagamento in app"],
+    economicBenefits: { "title": "Volumi", "benefits": ["+40% capi lavorati", "Cliente alto spendente"], "savings": "Affitto locale centro" }
   },
   {
     id: 'LND3',
@@ -8663,8 +8663,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'laundry',
     image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
     problem: "Orari di apertura limitati incompatibili con chi lavora.",
-    solutions: ["Locker automatico","Codice sblocco SMS","Notifica pronto"],
-    economicBenefits: {"title":"Servizio 24/7","benefits":["Più clienti serviti","Nessun addetto extra"],"savings":"Personale banco"}
+    solutions: ["Locker automatico", "Codice sblocco SMS", "Notifica pronto"],
+    economicBenefits: { "title": "Servizio 24/7", "benefits": ["Più clienti serviti", "Nessun addetto extra"], "savings": "Personale banco" }
   },
 
   // --- BATCH 4 PART 2 GENERATED ---
@@ -8677,8 +8677,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1574359418525-41e737190d51?auto=format&fit=crop&w=800&q=80',
     problem: "Macchinari costosi fermi in un cantiere quando servono in un altro.",
-    solutions: ["Calendario disponibilità flotta","Prenotazione interna","Tracking GPS"],
-    economicBenefits: {"title":"Asset","benefits":["Utilizzo ottimizato","Meno noleggi esterni"],"savings":"Cost sharing"}
+    solutions: ["Calendario disponibilità flotta", "Prenotazione interna", "Tracking GPS"],
+    economicBenefits: { "title": "Asset", "benefits": ["Utilizzo ottimizato", "Meno noleggi esterni"], "savings": "Cost sharing" }
   },
   {
     id: 'CNS_ADD_2',
@@ -8689,8 +8689,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'construction',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
     problem: "Errori di costruzione per disegni cartacei vecchi o mal letti.",
-    solutions: ["Realtà aumentata sovrapposta","Quote clickabili","Segnalazione difetti"],
-    economicBenefits: {"title":"Qualità","benefits":["Zero costi rifacimento","Precisione assoluta"],"savings":"Materiali sprecati"}
+    solutions: ["Realtà aumentata sovrapposta", "Quote clickabili", "Segnalazione difetti"],
+    economicBenefits: { "title": "Qualità", "benefits": ["Zero costi rifacimento", "Precisione assoluta"], "savings": "Materiali sprecati" }
   },
   {
     id: 'GRD_ADD_1',
@@ -8701,8 +8701,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gardening',
     image: 'https://images.unsplash.com/photo-1416879895648-9957d598aaff?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti chiamano disperati per piante che stanno morendo.",
-    solutions: ["Riconoscimento malattia ML","Video tutorial cura","Vendita prodotto cura"],
-    economicBenefits: {"title":"Post-vendita","benefits":["Vendita prodotti +20%","Fiducia esperta"],"savings":"Sopralluoghi inutili"}
+    solutions: ["Riconoscimento malattia ML", "Video tutorial cura", "Vendita prodotto cura"],
+    economicBenefits: { "title": "Post-vendita", "benefits": ["Vendita prodotti +20%", "Fiducia esperta"], "savings": "Sopralluoghi inutili" }
   },
   {
     id: 'GRD_ADD_2',
@@ -8713,8 +8713,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'gardening',
     image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti urbani che vorrebbero verde ma non sanno cosa comprare.",
-    solutions: ["Kit balcone pronto","Scelta piante per esposizione","Vasi su misura"],
-    economicBenefits: {"title":"Nicchia","benefits":["Nuovo mercato urbano","Kit alto margine"],"savings":"Progettazione"}
+    solutions: ["Kit balcone pronto", "Scelta piante per esposizione", "Vasi su misura"],
+    economicBenefits: { "title": "Nicchia", "benefits": ["Nuovo mercato urbano", "Kit alto margine"], "savings": "Progettazione" }
   },
   {
     id: 'CLN_ADD_1',
@@ -8725,8 +8725,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'cleaning',
     image: 'https://images.unsplash.com/photo-1584634731339-252c581abfc5?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti business che necessitano certificazioni igiene.",
-    solutions: ["Log intervento blockchain","Esito tampone PDF","Bollino qualità QR"],
-    economicBenefits: {"title":"Premium","benefits":["Prezzi più alti","Clienti corporate"],"savings":"Responsabilità"}
+    solutions: ["Log intervento blockchain", "Esito tampone PDF", "Bollino qualità QR"],
+    economicBenefits: { "title": "Premium", "benefits": ["Prezzi più alti", "Clienti corporate"], "savings": "Responsabilità" }
   },
   {
     id: 'CLN_ADD_2',
@@ -8737,8 +8737,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'cleaning',
     image: 'https://images.unsplash.com/photo-1582735689369-c669c64658cc?auto=format&fit=crop&w=800&q=80',
     problem: "Margini bassi sulla sola pulizia oraria.",
-    solutions: ["Servizio extra a pacchetto","Ritiro camicie","Stiratura in loco"],
-    economicBenefits: {"title":"Margine","benefits":["Upsell facile","Scontrino +30%"],"savings":"Marketing separato"}
+    solutions: ["Servizio extra a pacchetto", "Ritiro camicie", "Stiratura in loco"],
+    economicBenefits: { "title": "Margine", "benefits": ["Upsell facile", "Scontrino +30%"], "savings": "Marketing separato" }
   },
   {
     id: 'ATO_ADD_1',
@@ -8749,8 +8749,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'autocare',
     image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80',
     problem: "Perdita valore auto usata per tagliandi non certificabili.",
-    solutions: ["Registro immutabile lavori","Valore garantito","Trasferibile acquirente"],
-    economicBenefits: {"title":"Valore","benefits":["Fidelizzazione officina","Auto vale di più"],"savings":"Contestazioni"}
+    solutions: ["Registro immutabile lavori", "Valore garantito", "Trasferibile acquirente"],
+    economicBenefits: { "title": "Valore", "benefits": ["Fidelizzazione officina", "Auto vale di più"], "savings": "Contestazioni" }
   },
   {
     id: 'ATO_ADD_2',
@@ -8761,8 +8761,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'autocare',
     image: 'https://images.unsplash.com/photo-1562519819-016930ada31b?auto=format&fit=crop&w=800&q=80',
     problem: "Panico durante un guasto e attese infinite al call center.",
-    solutions: ["Tracking arrivo carroattrezzi","Chat operatore","Preventivo chiaro"],
-    economicBenefits: {"title":"Servizio","benefits":["Soccorso premium","Dati cliente acquisiti"],"savings":"Gestione telefonica"}
+    solutions: ["Tracking arrivo carroattrezzi", "Chat operatore", "Preventivo chiaro"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Soccorso premium", "Dati cliente acquisiti"], "savings": "Gestione telefonica" }
   },
   {
     id: 'PHT_ADD_1',
@@ -8773,8 +8773,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'photo',
     image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
     problem: "Foto bellissime che rimangono chiuse negli hard disk.",
-    solutions: ["Negozio automatico","Laboratorio stampa connesso","Spedizione diretta"],
-    economicBenefits: {"title":"Passivo","benefits":["Ricavi ricorrenti","Zero magazzino"],"savings":"Tempo gestione ordini"}
+    solutions: ["Negozio automatico", "Laboratorio stampa connesso", "Spedizione diretta"],
+    economicBenefits: { "title": "Passivo", "benefits": ["Ricavi ricorrenti", "Zero magazzino"], "savings": "Tempo gestione ordini" }
   },
   {
     id: 'TCH_ADD_1',
@@ -8785,8 +8785,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tech',
     image: 'https://images.unsplash.com/photo-1597872250977-08a65bb7ee7d?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti vogliono risparmiare ma temono fregature sull'usato.",
-    solutions: ["Certificazione 50 punti","Garanzia 12 mesi","Ritocco estetico"],
-    economicBenefits: {"title":"Margine","benefits":["Alto margine su usato","Sostenibilità"],"savings":"RAEE"}
+    solutions: ["Certificazione 50 punti", "Garanzia 12 mesi", "Ritocco estetico"],
+    economicBenefits: { "title": "Margine", "benefits": ["Alto margine su usato", "Sostenibilità"], "savings": "RAEE" }
   },
   {
     id: 'LND_ADD_1',
@@ -8797,8 +8797,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'laundry',
     image: 'https://images.unsplash.com/photo-1545173168-9f1947eebb8f?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti rovinano capi provando a smacchiare da soli.",
-    solutions: ["Consulenza esperta","Vendita smacchiatore giusto","Prenotazione lavaggio"],
-    economicBenefits: {"title":"Expertise","benefits":["Fiducia professionalità","Acquisto prodotti"],"savings":"Capi rovinati"}
+    solutions: ["Consulenza esperta", "Vendita smacchiatore giusto", "Prenotazione lavaggio"],
+    economicBenefits: { "title": "Expertise", "benefits": ["Fiducia professionalità", "Acquisto prodotti"], "savings": "Capi rovinati" }
   },
 
   // --- BATCH 5 GENERATED ---
@@ -8811,8 +8811,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che prenotano e non si presentano.",
-    solutions: ["Prenotazione 24/7","Acconto PayPal","Reminder SMS"],
-    economicBenefits: {"title":"Efficienza","benefits":["Zero buchi agenda","Incasso garantito"],"savings":"Receptionist"}
+    solutions: ["Prenotazione 24/7", "Acconto PayPal", "Reminder SMS"],
+    economicBenefits: { "title": "Efficienza", "benefits": ["Zero buchi agenda", "Incasso garantito"], "savings": "Receptionist" }
   },
   {
     id: 'WEL3',
@@ -8823,8 +8823,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80',
     problem: "Persi clienti durante Natale/feste perché chiuso o lontano.",
-    solutions: ["Shop 24h","Invio programmato","Grafica personalizzabile"],
-    economicBenefits: {"title":"Cashflow","benefits":["Incasso anticipato","+20% fatturato feste"],"savings":"Stampa card"}
+    solutions: ["Shop 24h", "Invio programmato", "Grafica personalizzabile"],
+    economicBenefits: { "title": "Cashflow", "benefits": ["Incasso anticipato", "+20% fatturato feste"], "savings": "Stampa card" }
   },
   {
     id: 'WEL4',
@@ -8835,8 +8835,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1556228552-523de502942e?auto=format&fit=crop&w=800&q=80',
     problem: "Difficile vendere creme costose senza prova.",
-    solutions: ["Scan viso AI","Report problemi pelle","Carrello prodotti"],
-    economicBenefits: {"title":"Vendita Prodotti","benefits":["+50% vendita retail","Fiducia scientifica"],"savings":"Tempo consulenza"}
+    solutions: ["Scan viso AI", "Report problemi pelle", "Carrello prodotti"],
+    economicBenefits: { "title": "Vendita Prodotti", "benefits": ["+50% vendita retail", "Fiducia scientifica"], "savings": "Tempo consulenza" }
   },
   {
     id: 'WEL5',
@@ -8847,8 +8847,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80',
     problem: "Entrate incostanti nei mesi estivi/invernali.",
-    solutions: ["Addebito ricorrente","Sconti esclusivi","Accesso prioritario"],
-    economicBenefits: {"title":"Ricavi","benefits":["MRR stabile","Cliente che non cambia"],"savings":"Acquisizione"}
+    solutions: ["Addebito ricorrente", "Sconti esclusivi", "Accesso prioritario"],
+    economicBenefits: { "title": "Ricavi", "benefits": ["MRR stabile", "Cliente che non cambia"], "savings": "Acquisizione" }
   },
   {
     id: 'FIT2',
@@ -8859,8 +8859,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'fitness',
     image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che mollano perché non possono venire sempre.",
-    solutions: ["Video esercizi","Chat col coach","Tracking progressi"],
-    economicBenefits: {"title":"Retention","benefits":["Tasso abbandono -40%","Abbonamento \"Always-On\""],"savings":"Spazio sala"}
+    solutions: ["Video esercizi", "Chat col coach", "Tracking progressi"],
+    economicBenefits: { "title": "Retention", "benefits": ["Tasso abbandono -40%", "Abbonamento \"Always-On\""], "savings": "Spazio sala" }
   },
   {
     id: 'FIT3',
@@ -8871,8 +8871,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'fitness',
     image: 'https://images.unsplash.com/photo-1570829460005-c840387bb1ca?auto=format&fit=crop&w=800&q=80',
     problem: "Code in reception per badge dimenticati o smarriti.",
-    solutions: ["NFC/BLE Smartphone","Controllo scadenza abbonamento","Accesso 24h"],
-    economicBenefits: {"title":"Accessi","benefits":["Ingresso fluido","Meno staff reception"],"savings":"Costo badge"}
+    solutions: ["NFC/BLE Smartphone", "Controllo scadenza abbonamento", "Accesso 24h"],
+    economicBenefits: { "title": "Accessi", "benefits": ["Ingresso fluido", "Meno staff reception"], "savings": "Costo badge" }
   },
   {
     id: 'FIT4',
@@ -8883,8 +8883,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'fitness',
     image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=800&q=80',
     problem: "Classi troppo piene o vuote senza preavviso.",
-    solutions: ["Lista d'attesa","Penale no-show","Notifica posto libero"],
-    economicBenefits: {"title":"Saturazione","benefits":["Classi ottimizzate","Clienti felici"],"savings":"Istruttori a vuoto"}
+    solutions: ["Lista d'attesa", "Penale no-show", "Notifica posto libero"],
+    economicBenefits: { "title": "Saturazione", "benefits": ["Classi ottimizzate", "Clienti felici"], "savings": "Istruttori a vuoto" }
   },
   {
     id: 'BRB2',
@@ -8895,8 +8895,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'barber',
     image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80',
     problem: "Sabato mattina infernale con ore di attesa e clienti nervosi.",
-    solutions: ["Agenda digitale","Promemoria SMS","Selezione servizio"],
-    economicBenefits: {"title":"Produttività","benefits":["Zero tempi morti","+20% tagli al giorno"],"savings":"Tempo telefono"}
+    solutions: ["Agenda digitale", "Promemoria SMS", "Selezione servizio"],
+    economicBenefits: { "title": "Produttività", "benefits": ["Zero tempi morti", "+20% tagli al giorno"], "savings": "Tempo telefono" }
   },
   {
     id: 'BRB3',
@@ -8907,8 +8907,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'barber',
     image: 'https://images.unsplash.com/photo-1622287162716-f311baa3129e?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti comprano su Amazon i prodotti consigliati.",
-    solutions: ["Shop integrato app","Ritiro in negozio","Abbonamento lame/olio"],
-    economicBenefits: {"title":"Retail","benefits":["+30% fatturato","Margine 100% su prodotti"],"savings":"Affitto"}
+    solutions: ["Shop integrato app", "Ritiro in negozio", "Abbonamento lame/olio"],
+    economicBenefits: { "title": "Retail", "benefits": ["+30% fatturato", "Margine 100% su prodotti"], "savings": "Affitto" }
   },
   {
     id: 'TAT2',
@@ -8919,8 +8919,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tattoo',
     image: 'https://images.unsplash.com/photo-1562962230-16e4623d36e6?auto=format&fit=crop&w=800&q=80',
     problem: "Archivi cartacei pieni di fogli privacy e rischi legali.",
-    solutions: ["Archiviazione cloud","Data certa","Foto documento"],
-    economicBenefits: {"title":"Sicurezza","benefits":["Zero rischi cause","Space saving"],"savings":"Carta/Archivio"}
+    solutions: ["Archiviazione cloud", "Data certa", "Foto documento"],
+    economicBenefits: { "title": "Sicurezza", "benefits": ["Zero rischi cause", "Space saving"], "savings": "Carta/Archivio" }
   },
   {
     id: 'TAT3',
@@ -8931,8 +8931,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tattoo',
     image: 'https://images.unsplash.com/photo-1598371839696-5c5bbce6509e?auto=format&fit=crop&w=800&q=80',
     problem: "Flash day caotici con fila fuori e gente che se ne va.",
-    solutions: ["Vetrina disegni","Caparra online","Slot orario"],
-    economicBenefits: {"title":"Incasso","benefits":["Sold out in minuti","Nessuna perdita tempo"],"savings":"Disegni invenduti"}
+    solutions: ["Vetrina disegni", "Caparra online", "Slot orario"],
+    economicBenefits: { "title": "Incasso", "benefits": ["Sold out in minuti", "Nessuna perdita tempo"], "savings": "Disegni invenduti" }
   },
   {
     id: 'PET2',
@@ -8943,8 +8943,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pets',
     image: 'https://images.unsplash.com/photo-1623387641168-d9803ddd3f35?auto=format&fit=crop&w=800&q=80',
     problem: "Proprietari che non sanno quando scade il vaccino.",
-    solutions: ["Reminder automatico","Storico interventi","Passaporto digitale"],
-    economicBenefits: {"title":"Ricorrenza","benefits":["Clienti puntuali","Vendita antiparassitari"],"savings":"Segreteria"}
+    solutions: ["Reminder automatico", "Storico interventi", "Passaporto digitale"],
+    economicBenefits: { "title": "Ricorrenza", "benefits": ["Clienti puntuali", "Vendita antiparassitari"], "savings": "Segreteria" }
   },
   {
     id: 'PET3',
@@ -8955,8 +8955,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pets',
     image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=800&q=80',
     problem: "Anziani o lavoratori che non riescono a portare il cane.",
-    solutions: ["Ritiro a domicilio","Tracking viaggio","Video durante servizio"],
-    economicBenefits: {"title":"Servizio","benefits":["Nuovi clienti senza auto","Premium price"],"savings":"Slot buchi"}
+    solutions: ["Ritiro a domicilio", "Tracking viaggio", "Video durante servizio"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Nuovi clienti senza auto", "Premium price"], "savings": "Slot buchi" }
   },
 
   // --- BATCH 5 PART 2 GENERATED ---
@@ -8969,8 +8969,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80',
     problem: "Pacchetti standard che non soddisfano nessuno.",
-    solutions: ["Mix & Match trattamenti","Aggiunta pranzo/aperitivo","Preventivo live"],
-    economicBenefits: {"title":"Upsell","benefits":["Ticket medio +40%","Esperienza unica"],"savings":"Tempo preventivi"}
+    solutions: ["Mix & Match trattamenti", "Aggiunta pranzo/aperitivo", "Preventivo live"],
+    economicBenefits: { "title": "Upsell", "benefits": ["Ticket medio +40%", "Esperienza unica"], "savings": "Tempo preventivi" }
   },
   {
     id: 'WEL_ADD_2',
@@ -8981,8 +8981,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'wellness',
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80',
     problem: "Gestione manuale dei voucher aziendali.",
-    solutions: ["Portale HR dedicato","Codici sconto univoci","Fatturazione mensile"],
-    economicBenefits: {"title":"B2B","benefits":["Flusso clienti costante","Contratti annuali"],"savings":"Gestione convenzioni"}
+    solutions: ["Portale HR dedicato", "Codici sconto univoci", "Fatturazione mensile"],
+    economicBenefits: { "title": "B2B", "benefits": ["Flusso clienti costante", "Contratti annuali"], "savings": "Gestione convenzioni" }
   },
   {
     id: 'FIT_ADD_1',
@@ -8993,8 +8993,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'fitness',
     image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80',
     problem: "Impossibilità di andare in palestra per viaggi o lockdown.",
-    solutions: ["Videochiamata HD","Correzione postura live","Timer condiviso"],
-    economicBenefits: {"title":"Flessibilità","benefits":["Clienti ovunque nel mondo","Zero costi struttura"],"savings":"Affitto sala"}
+    solutions: ["Videochiamata HD", "Correzione postura live", "Timer condiviso"],
+    economicBenefits: { "title": "Flessibilità", "benefits": ["Clienti ovunque nel mondo", "Zero costi struttura"], "savings": "Affitto sala" }
   },
   {
     id: 'FIT_ADD_2',
@@ -9005,8 +9005,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'fitness',
     image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che si allenano ma mangiano male e non vedono risultati.",
-    solutions: ["Calcolo macro","Lista spesa auto","Ricette fit"],
-    economicBenefits: {"title":"Risultati","benefits":["Miglior retention","Upsell servizio nutrizione"],"savings":"Nutrizionista esterno"}
+    solutions: ["Calcolo macro", "Lista spesa auto", "Ricette fit"],
+    economicBenefits: { "title": "Risultati", "benefits": ["Miglior retention", "Upsell servizio nutrizione"], "savings": "Nutrizionista esterno" }
   },
   {
     id: 'BRB_ADD_1',
@@ -9017,8 +9017,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'barber',
     image: 'https://images.unsplash.com/photo-1503951914296-2a68255b089c?auto=format&fit=crop&w=800&q=80',
     problem: "Salone chiuso la domenica/lunedì che non fattura.",
-    solutions: ["Video learning","Area membri","Certificato finale"],
-    economicBenefits: {"title":"Scalabilità","benefits":["Ricavi passivi","Brand reputation"],"savings":"Tempo formazione fisica"}
+    solutions: ["Video learning", "Area membri", "Certificato finale"],
+    economicBenefits: { "title": "Scalabilità", "benefits": ["Ricavi passivi", "Brand reputation"], "savings": "Tempo formazione fisica" }
   },
   {
     id: 'BRB_ADD_2',
@@ -9029,8 +9029,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'barber',
     image: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti indecisi o pentiti del taglio radicale.",
-    solutions: ["Filtri AR realistici","Catalogo trend","Condivisione social"],
-    economicBenefits: {"title":"Esperienza","benefits":["Cliente rassicurato","Pubblicità virale"],"savings":"Lamentele"}
+    solutions: ["Filtri AR realistici", "Catalogo trend", "Condivisione social"],
+    economicBenefits: { "title": "Esperienza", "benefits": ["Cliente rassicurato", "Pubblicità virale"], "savings": "Lamentele" }
   },
   {
     id: 'TAT_ADD_1',
@@ -9041,8 +9041,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tattoo',
     image: 'https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che chiamano ansiosi per ogni crosticina o rossore.",
-    solutions: ["Notifiche cura giornaliera","Chat check foto","Vendita creme"],
-    economicBenefits: {"title":"Qualità","benefits":["Tatuaggi guariti meglio","Upsell creme"],"savings":"Tempo assistenza"}
+    solutions: ["Notifiche cura giornaliera", "Chat check foto", "Vendita creme"],
+    economicBenefits: { "title": "Qualità", "benefits": ["Tatuaggi guariti meglio", "Upsell creme"], "savings": "Tempo assistenza" }
   },
   {
     id: 'TAT_ADD_2',
@@ -9053,8 +9053,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'tattoo',
     image: 'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?auto=format&fit=crop&w=800&q=80',
     problem: "Guadagno limitato alle ore in cui si tatua.",
-    solutions: ["Print on demand","Design esclusivi","Spedizione auto"],
-    economicBenefits: {"title":"Brand","benefits":["Pubblicità ambulante","Entrate extra"],"savings":"Magazzino"}
+    solutions: ["Print on demand", "Design esclusivi", "Spedizione auto"],
+    economicBenefits: { "title": "Brand", "benefits": ["Pubblicità ambulante", "Entrate extra"], "savings": "Magazzino" }
   },
   {
     id: 'PET_ADD_1',
@@ -9065,8 +9065,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pets',
     image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80',
     problem: "Cani che scappano e medagliette illeggibili.",
-    solutions: ["Profilo online cane","Posizione GPS scansionatore","Contatto rapido"],
-    economicBenefits: {"title":"Premium","benefits":["Servizio alto valore","Tranquillità padrone"],"savings":"Medagliette incise"}
+    solutions: ["Profilo online cane", "Posizione GPS scansionatore", "Contatto rapido"],
+    economicBenefits: { "title": "Premium", "benefits": ["Servizio alto valore", "Tranquillità padrone"], "savings": "Medagliette incise" }
   },
   {
     id: 'PET_ADD_2',
@@ -9077,8 +9077,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'pets',
     image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&q=80',
     problem: "Padroni inesperti che non riescono a gestire il cane ma non hanno tempo per il campo.",
-    solutions: ["Videolezioni step-by-step","Supporto remoto","Community"],
-    economicBenefits: {"title":"Educazione","benefits":["Cani più gestibili","Upsell lezioni campo"],"savings":"Tempo spiegazioni"}
+    solutions: ["Videolezioni step-by-step", "Supporto remoto", "Community"],
+    economicBenefits: { "title": "Educazione", "benefits": ["Cani più gestibili", "Upsell lezioni campo"], "savings": "Tempo spiegazioni" }
   },
 
   // --- BATCH SUPPLEMENTARY GENERATED ---
@@ -9091,20 +9091,20 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'travel',
     image: 'https://images.unsplash.com/photo-1517400508447-f8dd518b86db?auto=format&fit=crop&w=800&q=80',
     problem: "Sposi che non hanno tempo di passare ore in agenzia.",
-    solutions: ["Preventivatore live","Video destinazioni","Lista nozze online"],
-    economicBenefits: {"title":"Ticket Alto","benefits":["Viaggi >5k€","Fidelizzazione"],"savings":"Tempo agenzia"}
+    solutions: ["Preventivatore live", "Video destinazioni", "Lista nozze online"],
+    economicBenefits: { "title": "Ticket Alto", "benefits": ["Viaggi >5k€", "Fidelizzazione"], "savings": "Tempo agenzia" }
   },
   {
     id: 'TRV3',
-    name: "Travel App "Assistant"",
+    name: "Travel App 'Assistant'",
     shortDescription: "Tutti i documenti e biglietti in un click offline",
     icon: '✈️',
     category: 'Digitalizzazione',
     activityType: 'travel',
     image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80',
     problem: "Clienti che perdono fogli o non trovano voucher in aeroporto.",
-    solutions: ["Wallet digitale","Notifiche ritardi","Chat emergenza 24/7"],
-    economicBenefits: {"title":"Servizio","benefits":["Reputazione top","Assistenza scalabile"],"savings":"Telefonate panico"}
+    solutions: ["Wallet digitale", "Notifiche ritardi", "Chat emergenza 24/7"],
+    economicBenefits: { "title": "Servizio", "benefits": ["Reputazione top", "Assistenza scalabile"], "savings": "Telefonate panico" }
   },
   {
     id: 'TRV4',
@@ -9115,8 +9115,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'travel',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     problem: "Pacchetti invenduti che scadono.",
-    solutions: ["Canale Telegram/WhatsApp","Acquisto impulsivo","Sconto aggressivo"],
-    economicBenefits: {"title":"Saturazione","benefits":["Zero invenduto","Cash immediato"],"savings":"Penali operatori"}
+    solutions: ["Canale Telegram/WhatsApp", "Acquisto impulsivo", "Sconto aggressivo"],
+    economicBenefits: { "title": "Saturazione", "benefits": ["Zero invenduto", "Cash immediato"], "savings": "Penali operatori" }
   },
   {
     id: 'HOM2',
@@ -9126,9 +9126,9 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     category: 'Automazione',
     activityType: 'home',
     image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=800&q=80',
-    problem: "Paura di comprare un divano che "non ci sta".",
-    solutions: ["Realtà aumentata","Misurazione automatica","Cambio colori"],
-    economicBenefits: {"title":"Resi","benefits":["Resi azzerati","Decisione rapida"],"savings":"Trasporti inutili"}
+    problem: "Paura di comprare un divano che 'non ci sta'.",
+    solutions: ["Realtà aumentata", "Misurazione automatica", "Cambio colori"],
+    economicBenefits: { "title": "Resi", "benefits": ["Resi azzerati", "Decisione rapida"], "savings": "Trasporti inutili" }
   },
   {
     id: 'HOM3',
@@ -9139,8 +9139,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'home',
     image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80',
     problem: "Ricevere 3 tostapane e zero servizi piatti belli.",
-    solutions: ["Crowdfunding regalo","Ringraziamenti auto","Consegna unica"],
-    economicBenefits: {"title":"Basket","benefits":["Vendita prodotti alto valore","Zero doppioni"],"savings":"Gestione cambi"}
+    solutions: ["Crowdfunding regalo", "Ringraziamenti auto", "Consegna unica"],
+    economicBenefits: { "title": "Basket", "benefits": ["Vendita prodotti alto valore", "Zero doppioni"], "savings": "Gestione cambi" }
   },
 
   // --- BATCH EDU GENERATED ---
@@ -9153,8 +9153,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'education',
     image: 'https://images.unsplash.com/photo-1544531696-6086f4a8600d?auto=format&fit=crop&w=800&q=80',
     problem: "Genitori disperati per debiti scolastici figli.",
-    solutions: ["Matching materia/voto","Lezioni online/live","Pagamento tracciato"],
-    economicBenefits: {"title":"Successo","benefits":["Miglioramento voti 100%","Zero perdite tempo"],"savings":"Ripetizioni nero"}
+    solutions: ["Matching materia/voto", "Lezioni online/live", "Pagamento tracciato"],
+    economicBenefits: { "title": "Successo", "benefits": ["Miglioramento voti 100%", "Zero perdite tempo"], "savings": "Ripetizioni nero" }
   },
   {
     id: 'EDU3',
@@ -9165,8 +9165,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'education',
     image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80',
     problem: "Genitori che lavorano e non possono andare agli open day.",
-    solutions: ["Tour 360","Webinar Q&A","Prenotazione colloquio"],
-    economicBenefits: {"title":"Iscrizioni","benefits":["+20% iscritti","Immagine moderna"],"savings":"Eventi fisici"}
+    solutions: ["Tour 360", "Webinar Q&A", "Prenotazione colloquio"],
+    economicBenefits: { "title": "Iscrizioni", "benefits": ["+20% iscritti", "Immagine moderna"], "savings": "Eventi fisici" }
   },
   {
     id: 'EDU4',
@@ -9177,8 +9177,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'education',
     image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80',
     problem: "Genitori all'oscuro del rendimento fino alla pagella.",
-    solutions: ["App genitore","Giustificazione online","Chat docente"],
-    economicBenefits: {"title":"Relazione","benefits":["Famiglia coinvolta","Meno dispersione"],"savings":"Segreteria"}
+    solutions: ["App genitore", "Giustificazione online", "Chat docente"],
+    economicBenefits: { "title": "Relazione", "benefits": ["Famiglia coinvolta", "Meno dispersione"], "savings": "Segreteria" }
   },
   {
     id: 'EDU5',
@@ -9189,8 +9189,8 @@ export const CONSULTING_SERVICES: ConsultingService[] = [
     activityType: 'education',
     image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80',
     problem: "Studenti lavoratori o atleti che non possono frequentare.",
-    solutions: ["Lezioni registrate","Esami online","Tutor dedicato"],
-    economicBenefits: {"title":"Inclusione","benefits":["Nuovi iscritti","Flessibilità totale"],"savings":"Aule fisiche"}
+    solutions: ["Lezioni registrate", "Esami online", "Tutor dedicato"],
+    economicBenefits: { "title": "Inclusione", "benefits": ["Nuovi iscritti", "Flessibilità totale"], "savings": "Aule fisiche" }
   },
 ];
 
