@@ -397,110 +397,111 @@ const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                         </div>
                     </div>
 
-                    {/* Step 2 panel (incoming) */}
-                    <div
-                        className="absolute inset-0 bg-[#0F0F0F] will-change-transform"
-                        style={step2Style}
-                    >
-                        <div className="h-full min-h-0 flex flex-col p-8 pt-16 bg-[#0F0F0F] relative overflow-hidden">
-                            {/* Abstract background blur for premium feel */}
-                            <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#FF9F29]/10 rounded-full blur-[100px] pointer-events-none" />
-                            <div className="absolute -bottom-28 -left-24 w-72 h-72 bg-[#FFBF71]/10 rounded-full blur-[110px] pointer-events-none wow-orb" />
-                            <div className="absolute top-1/3 -left-16 w-56 h-56 bg-white/5 rounded-full blur-[90px] pointer-events-none wow-orb" />
+                </div>
 
-                            {/* Back button iOS-like */}
-                            <button
-                                onClick={handleBack}
-                                className="absolute top-12 left-6 w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-95 transition"
-                                aria-label="Indietro"
-                            >
-                                <ArrowRight className="w-5 h-5 text-white rotate-180" />
-                            </button>
+                {/* Step 2 panel (incoming) */}
+                <div
+                    className="absolute inset-0 bg-[#0F0F0F] will-change-transform"
+                    style={step2Style}
+                >
+                    <div className="h-full min-h-0 flex flex-col p-8 pt-16 bg-[#0F0F0F] relative overflow-hidden">
+                        {/* Abstract background blur for premium feel */}
+                        <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#FF9F29]/10 rounded-full blur-[100px] pointer-events-none" />
+                        <div className="absolute -bottom-28 -left-24 w-72 h-72 bg-[#FFBF71]/10 rounded-full blur-[110px] pointer-events-none wow-orb" />
+                        <div className="absolute top-1/3 -left-16 w-56 h-56 bg-white/5 rounded-full blur-[90px] pointer-events-none wow-orb" />
 
-                            <div className="space-y-4 mb-8 relative z-10">
-                                <div className="flex items-center space-x-3">
-                                    <div className="px-3 py-1 bg-[#FF9F29]/10 border border-[#FF9F29]/20 rounded-full">
-                                        <span className="text-[10px] font-black uppercase text-[#FF9F29] tracking-[0.2em]">Step 02</span>
-                                    </div>
-                                    <div className="h-[1px] flex-1 bg-gradient-to-r from-[#FF9F29]/30 to-transparent" />
+                        {/* Back button iOS-like */}
+                        <button
+                            onClick={handleBack}
+                            className="absolute top-12 left-6 w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-white/10 active:scale-95 transition"
+                            aria-label="Indietro"
+                        >
+                            <ArrowRight className="w-5 h-5 text-white rotate-180" />
+                        </button>
+
+                        <div className="space-y-4 mb-8 relative z-10">
+                            <div className="flex items-center space-x-3">
+                                <div className="px-3 py-1 bg-[#FF9F29]/10 border border-[#FF9F29]/20 rounded-full">
+                                    <span className="text-[10px] font-black uppercase text-[#FF9F29] tracking-[0.2em]">Step 02</span>
                                 </div>
-                                <h2 className="text-4xl font-black tracking-tight leading-none uppercase">
-                                    DI CHE SETTORE<br />
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF9F29] to-[#FFBF71]">TI OCCUPI?</span>
-                                </h2>
-                                <p className="text-gray-500 font-medium text-sm">Personalizzerò i servizi per la tua attività.</p>
+                                <div className="h-[1px] flex-1 bg-gradient-to-r from-[#FF9F29]/30 to-transparent" />
                             </div>
+                            <h2 className="text-4xl font-black tracking-tight leading-none uppercase">
+                                DI CHE SETTORE<br />
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF9F29] to-[#FFBF71]">TI OCCUPI?</span>
+                            </h2>
+                            <p className="text-gray-500 font-medium text-sm">Personalizzerò i servizi per la tua attività.</p>
+                        </div>
 
-                            {/* Action Button - Enhanced Version */}
-                            <div className="mb-8 relative z-10 group">
-                                {selectedCategory && (
-                                    <div className="absolute -inset-1 bg-[#FF9F29]/30 rounded-full blur-xl animate-pulse group-hover:bg-[#FF9F29]/40 transition-all duration-500" />
-                                )}
-                                <button
-                                    disabled={!selectedCategory}
-                                    onClick={() => selectedCategory && onComplete(selectedCategory)}
-                                    className={`relative w-full h-16 rounded-full font-black text-lg uppercase tracking-widest shadow-2xl transition-all flex items-center justify-center space-x-3 overflow-hidden ${selectedCategory
-                                        ? 'bg-gradient-to-r from-[#FF9F29] to-[#FF8C00] text-[#0F0F0F] hover:scale-[1.02] active:scale-[0.98] glow-pulse'
-                                        : 'bg-[#1C1C1E] text-gray-600 border border-white/5 cursor-not-allowed opacity-50'
-                                        }`}
-                                >
-                                    {selectedCategory && (
-                                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full animate-shimmer" />
-                                    )}
-                                    <span className="relative z-10">Configura ora</span>
-                                    <ArrowRight className={`relative z-10 w-5 h-5 transition-transform duration-500 ${selectedCategory ? 'group-hover:translate-x-2' : ''}`} />
-                                </button>
-                            </div>
-
-                            <div
-                                ref={scrollContainerRef}
-                                className="flex-1 min-h-0 space-y-4 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y pr-2 custom-scrollbar pb-8 relative z-10"
+                        {/* Action Button - Enhanced Version */}
+                        <div className="mb-8 relative z-10 group">
+                            {selectedCategory && (
+                                <div className="absolute -inset-1 bg-[#FF9F29]/30 rounded-full blur-xl animate-pulse group-hover:bg-[#FF9F29]/40 transition-all duration-500" />
+                            )}
+                            <button
+                                disabled={!selectedCategory}
+                                onClick={() => selectedCategory && onComplete(selectedCategory)}
+                                className={`relative w-full h-16 rounded-full font-black text-lg uppercase tracking-widest shadow-2xl transition-all flex items-center justify-center space-x-3 overflow-hidden ${selectedCategory
+                                    ? 'bg-gradient-to-r from-[#FF9F29] to-[#FF8C00] text-[#0F0F0F] hover:scale-[1.02] active:scale-[0.98] glow-pulse'
+                                    : 'bg-[#1C1C1E] text-gray-600 border border-white/5 cursor-not-allowed opacity-50'
+                                    }`}
                             >
-                                {ACTIVITY_CATEGORIES.filter(c => c.id !== 'all').map((category) => (
-                                    <button
-                                        key={category.id}
-                                        onClick={() => setSelectedCategory(category.id)}
-                                        className={`w-full flex items-center p-5 rounded-[32px] border-2 transition-all duration-500 text-left group overflow-hidden relative ${selectedCategory === category.id ? 'bg-gradient-to-br from-[#FF9F29] to-[#FF8C00] border-transparent text-[#0F0F0F] transform scale-[1.02] shadow-xl shadow-[#FF9F29]/25 glow-pulse' : 'gradient-border bg-[#1C1C1E] hover:border-white/20 card-tilt'}`}
-                                    >
-                                        {/* Hover shimmer sweep */}
-                                        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-                                            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full animate-shimmer" />
-                                        </div>
-                                        <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-3xl mr-5 transition-transform group-hover:scale-110 ${selectedCategory === category.id ? 'bg-white/25 ring-2 ring-white/40 backdrop-blur-sm' : 'bg-[#2C2C2E] ring-1 ring-white/10'}`}>
-                                            {category.icon}
-                                        </div>
-                                        <div className="flex-1 z-10">
-                                            <h3 className="font-black uppercase tracking-tight text-lg">
-                                                {category.name}
-                                            </h3>
-                                            <p className={`text-[10px] font-bold uppercase tracking-widest ${selectedCategory === category.id ? 'text-[#0F0F0F]/60' : 'text-gray-500'
-                                                }`}>
-                                                {category.description}
-                                            </p>
-                                        </div>
-                                        {selectedCategory === category.id && (
-                                            <>
-                                                <div className="select-burst" />
-                                                <div className="absolute right-6 animate-in zoom-in duration-300">
-                                                    <CheckCircle2 className="w-7 h-7 text-[#0F0F0F]" />
-                                                </div>
-                                            </>
-                                        )}
-                                    </button>
-                                ))}
-                            </div>
+                                {selectedCategory && (
+                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full animate-shimmer" />
+                                )}
+                                <span className="relative z-10">Configura ora</span>
+                                <ArrowRight className={`relative z-10 w-5 h-5 transition-transform duration-500 ${selectedCategory ? 'group-hover:translate-x-2' : ''}`} />
+                            </button>
+                        </div>
+
+                        <div
+                            ref={scrollContainerRef}
+                            className="flex-1 min-h-0 space-y-4 overflow-y-auto no-scrollbar touch-scroller overscroll-contain touch-action-pan-y pr-2 custom-scrollbar pb-8 relative z-10"
+                        >
+                            {ACTIVITY_CATEGORIES.filter(c => c.id !== 'all').map((category) => (
+                                <button
+                                    key={category.id}
+                                    onClick={() => setSelectedCategory(category.id)}
+                                    className={`w-full flex items-center p-5 rounded-[32px] border-2 transition-all duration-500 text-left group overflow-hidden relative ${selectedCategory === category.id ? 'bg-gradient-to-br from-[#FF9F29] to-[#FF8C00] border-transparent text-[#0F0F0F] transform scale-[1.02] shadow-xl shadow-[#FF9F29]/25 glow-pulse' : 'gradient-border bg-[#1C1C1E] hover:border-white/20 card-tilt'}`}
+                                >
+                                    {/* Hover shimmer sweep */}
+                                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full animate-shimmer" />
+                                    </div>
+                                    <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-3xl mr-5 transition-transform group-hover:scale-110 ${selectedCategory === category.id ? 'bg-white/25 ring-2 ring-white/40 backdrop-blur-sm' : 'bg-[#2C2C2E] ring-1 ring-white/10'}`}>
+                                        {category.icon}
+                                    </div>
+                                    <div className="flex-1 z-10">
+                                        <h3 className="font-black uppercase tracking-tight text-lg">
+                                            {category.name}
+                                        </h3>
+                                        <p className={`text-[10px] font-bold uppercase tracking-widest ${selectedCategory === category.id ? 'text-[#0F0F0F]/60' : 'text-gray-500'
+                                            }`}>
+                                            {category.description}
+                                        </p>
+                                    </div>
+                                    {selectedCategory === category.id && (
+                                        <>
+                                            <div className="select-burst" />
+                                            <div className="absolute right-6 animate-in zoom-in duration-300">
+                                                <CheckCircle2 className="w-7 h-7 text-[#0F0F0F]" />
+                                            </div>
+                                        </>
+                                    )}
+                                </button>
+                            ))}
                         </div>
                     </div>
+                </div>
 
-                    {/* Pagination Tabs */}
-                    <div className="absolute top-12 right-8 flex space-x-1.5 z-50">
-                        <div className={`h-1.5 rounded-full transition-all duration-500 ${step === 1 ? 'w-8 bg-[#0F0F0F]/20' : 'w-4 bg-white/10'}`} />
-                        <div className={`h-1.5 rounded-full transition-all duration-500 ${step === 2 ? 'w-8 bg-[#FF9F29]' : 'w-4 bg-white/20'}`} />
-                    </div>
+                {/* Pagination Tabs */}
+                <div className="absolute top-12 right-8 flex space-x-1.5 z-50">
+                    <div className={`h-1.5 rounded-full transition-all duration-500 ${step === 1 ? 'w-8 bg-[#0F0F0F]/20' : 'w-4 bg-white/10'}`} />
+                    <div className={`h-1.5 rounded-full transition-all duration-500 ${step === 2 ? 'w-8 bg-[#FF9F29]' : 'w-4 bg-white/20'}`} />
                 </div>
-                </div>
-                </div>
-                );
+            </div>
+        </div>
+    );
 };
 
-                export default Onboarding;
+export default Onboarding;

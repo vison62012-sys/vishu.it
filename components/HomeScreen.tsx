@@ -50,7 +50,7 @@ interface HomeScreenProps {
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultationClick, initialCategory }) => {
   // Filtro predefinito: se c'è una categoria iniziale valida (diversa da 'all'), usala
-  const [activeCategory, setActiveCategory] = useState(initialCategory && initialCategory !== 'all' ? initialCategory : 'all');
+  const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   // Mostra in UI la categoria scelta durante l'onboarding
@@ -86,13 +86,6 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
     const allTab = ACTIVITY_CATEGORIES.find(c => c.id === 'all');
 
     return allTab ? [allTab, initial, ...others] : [initial, ...others];
-  }, [initialCategory]);
-
-  // Sync activeCategory with initialCategory if it changes
-  useEffect(() => {
-    if (initialCategory && initialCategory !== 'all') {
-      setActiveCategory(initialCategory);
-    }
   }, [initialCategory]);
 
   // Scroll to top when category changes

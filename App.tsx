@@ -44,8 +44,8 @@ const App: React.FC = () => {
 
         {/* Onboarding Overlay */}
         {currentScreen === 'onboarding' && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-500 p-4">
-            <div className="w-full max-w-2xl h-[92vh] bg-[#0F0F0F] shadow-2xl overflow-hidden relative rounded-[40px] border border-white/10">
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-500 sm:p-4">
+            <div className="w-full max-w-2xl h-[100dvh] sm:h-[92vh] bg-[#0F0F0F] shadow-2xl overflow-hidden relative sm:rounded-[40px] border-0 sm:border border-white/10">
               <Onboarding onComplete={handleOnboardingComplete} />
             </div>
           </div>
