@@ -35,6 +35,7 @@ const App: React.FC = () => {
         {/* Always render HomeScreen but manage its visibility/interaction */}
         <div className={`flex-1 flex flex-col ${currentScreen === 'onboarding' ? 'opacity-40 pointer-events-none scale-[0.98] blur-[2px]' : 'opacity-100'} transition-all duration-700`}>
           <HomeScreen
+            key={userCategory || 'default'}
             onServiceSelect={handleServiceSelect}
             onConsultationClick={() => setCurrentScreen('consultation')}
             initialCategory={userCategory || undefined}
@@ -42,13 +43,13 @@ const App: React.FC = () => {
         </div>
 
         {/* Onboarding Overlay */}
-         {currentScreen === 'onboarding' && (
-           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-500 p-4">
-             <div className="w-full max-w-2xl h-[92vh] bg-[#0F0F0F] shadow-2xl overflow-hidden relative rounded-[40px] border border-white/10">
-               <Onboarding onComplete={handleOnboardingComplete} />
-             </div>
-           </div>
-         )}
+        {currentScreen === 'onboarding' && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-in fade-in duration-500 p-4">
+            <div className="w-full max-w-2xl h-[92vh] bg-[#0F0F0F] shadow-2xl overflow-hidden relative rounded-[40px] border border-white/10">
+              <Onboarding onComplete={handleOnboardingComplete} />
+            </div>
+          </div>
+        )}
 
         {/* Other screens (Service, Consultation) */}
         {currentScreen === 'service' && selectedService && (
