@@ -11,11 +11,11 @@ interface HomeScreenProps {
 }
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultationClick, initialCategory }) => {
-  // Filtro predefinito sempre su 'all'
-  const [activeCategory, setActiveCategory] = useState('all');
+  // Filtro predefinito: se c'è una categoria iniziale valida (diversa da 'all'), usala
+  const [activeCategory, setActiveCategory] = useState(initialCategory && initialCategory !== 'all' ? initialCategory : 'all');
   const [searchQuery, setSearchQuery] = useState('');
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
-  // Mostra in UI la categoria scelta durante l'onboarding, ma senza impostarla come filtro attivo
+  // Mostra in UI la categoria scelta durante l'onboarding
   const selectedOnboardingCategory = React.useMemo(() => {
     if (!initialCategory) return null;
     const found = ACTIVITY_CATEGORIES.find(c => c.id === initialCategory);
@@ -363,7 +363,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
                 {selectedOnboardingCategory.name}
               </span>
             </div>
-            <span className="text-[10px] text-white/40">Filtro attivo: Tutti</span>
+            {activeCategory === 'all' && <span className="text-[10px] text-white/40">Filtro attivo: Tutti</span>}
           </div>
         )}
         <ActivityFilters
@@ -465,6 +465,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onServiceSelect, onConsultation
                   'optical': 'https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?auto=format&fit=crop&w=1200&q=80',
                   'realestate': 'https://images.unsplash.com/photo-1582408921715-18e7806365c1?auto=format&fit=crop&w=1200&q=80',
                   'jewelry': 'https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?auto=format&fit=crop&w=1200&q=80',
+                  'autocare': 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1200&q=80',
                   'kids': 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1200&q=80',
                   'medical': 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80',
                   'fitness': 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80',
