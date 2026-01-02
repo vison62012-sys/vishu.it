@@ -33,9 +33,8 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-brand-dark font-sans w-full relative overflow-hidden">
       <div className="w-full max-w-2xl mx-auto min-h-screen flex flex-col">
         {/* Always render HomeScreen but manage its visibility/interaction */}
-        <div className={`flex-1 flex flex-col ${currentScreen === 'onboarding' ? 'opacity-40 pointer-events-none scale-[0.98] blur-[2px]' : 'opacity-100'} transition-all duration-700`}>
+        <div className={`flex-1 flex flex-col ${currentScreen === 'onboarding' ? 'opacity-40 pointer-events-none scale-[0.98] blur-[2px]' : 'opacity-100'} transition-all duration-500`}>
           <HomeScreen
-            key={userCategory || 'default'}
             onServiceSelect={handleServiceSelect}
             onConsultationClick={() => setCurrentScreen('consultation')}
             initialCategory={userCategory || undefined}
